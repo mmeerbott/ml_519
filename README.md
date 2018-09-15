@@ -1,2 +1,5 @@
-# ml_519
-CS 519 Applied ML Coursework
+# CS 519 Applied ML Coursework
+Note: master branch is for submissions
+
+## Project 1 
+

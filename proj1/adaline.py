@@ -1,5 +1,5 @@
-from .neuralnet import NeuralNet
 import numpy as np
+from .neuralnet import NeuralNet
 
 class Adaline(NeuralNet):
     def fit(self, X, y):
@@ -14,8 +14,3 @@ class Adaline(NeuralNet):
             cost = (errors**2).sum() / 2.0
 
         return self
-            
-
-    def predict(self, X):
-        z = np.dot(X, self.w_[1:]) + self.w_[0]
-        reuturn np.where(z >= 0.0, 1, -1)

@@ -1,21 +1,15 @@
 import numpy as np
+from .neuralnet import NeuralNet
 
 class SGD(NeuralNet):
-    def __init__(self, eta=0.1, iters=10, random_state=1, ovr=False):
-        super.__init__(eta, iters, 
-        self.eta   = eta
-        self.iters = iters
-        self.random_state = random_state
-        self.ovr   = ovr
-
-
     def shuffle(self, X, y):
         r = self.rgen.permutation(len(y))
         return X[r], y[r]
 
 
     def fit(self, X, y):
-        # init weights here TODO 
+        rng = np.random.RandomState(self.random_state)
+        self.w_ = rgen.normal(loc=0.0, scale=0.01, size=1+X.shape[1])
 
         self.cost_ = []
         for _ in range(self.iters):
@@ -37,8 +31,3 @@ class SGD(NeuralNet):
         slef.w_[0]  += self.eta * error
         cost = 0.5 * (error**2)
         return cost
-
-
-    def predict(self, X):
-        z = np.dot(X, self.w_[1:]) + self.w_[0]
-        return np.where(x >= 0.0, 1, -1)

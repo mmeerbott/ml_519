@@ -50,8 +50,9 @@ def setosa_versicolor(datasetcsv, makebinary=False):
 
     if makebinary:
         classes = [1, -1]
-        yr = np.where(yr == 'Iris-setosa', -1, 1)
-        ys = np.where(ys == 'Iris-setosa', -1, 1)
+        yr = np.where(yr == 'setosa', -1, 1)
+        ys = np.where(ys == 'setosa', -1, 1)
+
     else:
         classes = list(set(yr))
 
@@ -94,28 +95,24 @@ if __name__=='__main__':
         exit()
 
     X, y = data['train'] 
-    Xs, ys = data ['test']
+    Xs, ys = data['test']
 
     # Based on input, call classifiers
     if   args.classifier == 'perceptron':
         model = Perceptron(eta=0.1, iters=10)
-
     elif args.classifier == 'adaline':
         model = Adaline(eta=0.1, iters=10)
-
     elif args.classifier == 'sgd':
         model = SGD(eta=0.1, iters=10)
-
     elif args.classifier == 'ovr':
         model = OVR(data['classes'], eta=0.1, iters=10)
-
-    else:  # should be unreachable
-        pass
 
     model.fit(X, y)
     res = model.predict(Xs)
 
     matches = 0
+    print(res)
+    print(ys)
     for i in range(len(ys)):
         if res[i] == ys[i]:
             matches += 1

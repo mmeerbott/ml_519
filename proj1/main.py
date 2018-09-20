@@ -7,10 +7,10 @@ import os
 import pandas
 import numpy as np
 
-from .perceptron.py import Perceptron
-from .adaline import Adaline
-from .sgd import SGD
-from .ovr import OVR
+from perceptron import Perceptron
+from adaline import Adaline
+from sgd import SGD
+from ovr import OVR
 
 
 def good_bad_wine(datasetcsv, makebinary=False):
@@ -24,13 +24,15 @@ def good_bad_wine(datasetcsv, makebinary=False):
     ys = df.iloc[1000:1500, 11].values
     Xs = df.iloc[1000:1500, [0,10]].values
 
-
     if makebinary:
         # quality 5 and under will be 'bad' wine; above, 'good'
+        classes = [1, -1]
         yr = np.where(yr <= 5, -1, 1)
         ys = np.where(ys <= 5, -1, 1)
+    else:
+        classes = list(set(yr))
 
-    return {'train':(Xr, yr), 'test':(Xs, ys)}
+    return {'train':(Xr, yr), 'test':(Xs, ys), 'classes':classes}
 
 
 def setosa_versicolor(datasetcsv, makebinary=False):
@@ -47,15 +49,18 @@ def setosa_versicolor(datasetcsv, makebinary=False):
     Xs = df.iloc[100:150, [0,2]].values
 
     if makebinary:
+        classes = [1, -1]
         yr = np.where(yr == 'Iris-setosa', -1, 1)
         ys = np.where(ys == 'Iris-setosa', -1, 1)
+    else:
+        classes = list(set(yr))
 
-    return {'train':(Xr, yr), 'test':(Xs, ys)}
+    return {'train':(Xr, yr), 'test':(Xs, ys), 'classes':classes}
 
 
 def preprocess(dataset, makebinary=False):
     """ tries to preprocess the dataset if it is known """
-    if dataset == 'datasets/iris.csv':
+    if dataset == 'datasets/iris_shuffled.csv':
         return setosa_versicolor(dataset, makebinary)
     elif dataset == 'datasets/winequality-red.csv':
         return good_bad_wine(dataset, makebinary)
@@ -67,7 +72,7 @@ def preprocess(dataset, makebinary=False):
 if __name__=='__main__':
     # set/handle arguments
     parser = argparse.ArgumentParser(
-                 description='Runs Perceptron/Adaline/SGD/SGD-ovr classifier on a dataset'
+                 description='Runs Perceptron/Adaline/SGD/OVR classifier on a dataset'
              )
     parser.add_argument('classifier', 
                         help='[Perceptron/Adaline/SGD/OVR]',
@@ -93,27 +98,27 @@ if __name__=='__main__':
 
     # Based on input, call classifiers
     if   args.classifier == 'perceptron':
-        cls = Perceptron(eta=0.1, iters=10)
+        model = Perceptron(eta=0.1, iters=10)
 
     elif args.classifier == 'adaline':
-        cls = Adaline(eta=0.1, iters=10)
+        model = Adaline(eta=0.1, iters=10)
 
     elif args.classifier == 'sgd':
-        cls = SGD(eta=0.1, iters=10)
+        model = SGD(eta=0.1, iters=10)
 
     elif args.classifier == 'ovr':
-        cls = OVR(eta=0.1, iters=10)
+        model = OVR(data['classes'], eta=0.1, iters=10)
 
     else:  # should be unreachable
         pass
 
-    cls.fit(X, y)
-    res = cls.predict(Xs)
+    model.fit(X, y)
+    res = model.predict(Xs)
 
     matches = 0
     for i in range(len(ys)):
         if res[i] == ys[i]:
             matches += 1
-    accuracy = matches / len(ys)
+    accuracy = float(matches) / float(len(ys))
 
-    print accuracy
+    print(accuracy)

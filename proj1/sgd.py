@@ -10,11 +10,12 @@ class SGD(NeuralNet):
     def fit(self, X, y):
         self.rng = np.random.RandomState(self.random_state)
         self.w_ = self.rng.normal(loc=0.0, scale=0.01, size=1+X.shape[1])
-
         self.cost_ = []
+
         for _ in range(self.iters):
             X, y = self.shuffle(X, y)
             cost = []
+
             for xi, target in zip(X, y):
                 cost.append(self.update_weights(xi, target))
 
@@ -29,5 +30,5 @@ class SGD(NeuralNet):
         error  = (target - output)
         self.w_[1:] += self.eta * xi.dot(error)
         self.w_[0]  += self.eta * error
-        cost = 0.5 * error**2
+        cost = error**2 / 2.0
         return cost

@@ -22,4 +22,5 @@ It seems that every prediction yielded an array of 1s or -1s, meaning something 
 wrong in the code/logic. I am not sure what it is at this point (if I did, it'd be fixed
 by now), but my best guess right now is that np.where is having trouble comparing things
 with strings, though the fact that y was separated correctly in the first 3 algorithms
-says differently. 
+says differently. Submitting at this point since I'm already late and won't have time to
+work on it tomorrow.

@@ -30,5 +30,8 @@ class SGD(NeuralNet):
         error  = (target - output)
         self.w_[1:] += self.eta * xi.dot(error)
         self.w_[0]  += self.eta * error
-        cost = error**2 / 2.0
+        try:
+            cost = error**2 / 2.0
+        except FloatingPointError:
+            sys.exit("Diverging. Please use a smaller eta.")
         return cost

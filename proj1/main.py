@@ -82,13 +82,15 @@ if __name__=='__main__':
 
     parser.add_argument('dataset', help='[/path/to/dataset.zip]')
     parser.add_argument('makebinary', help='Makes Dataset binary', action='store_true')
+    parser.add_argument('--iters', help='Default=10', default=10)
+    parser.add_argument('--eta', help='Default=0.01', default=0.01)
     args = parser.parse_args()
 
     # Handle the preprocessesing of known datasets
-    if (args.classifier != 'ovr'):
-        data = preprocess(args.dataset, makebinary=True)
-    else:
+    if (args.classifier == 'ovr'):
         data = preprocess(args.dataset)
+    else:
+        data = preprocess(args.dataset, makebinary=True)
 
     if data is None:
         print('Dataset unrecognized.')
@@ -99,23 +101,37 @@ if __name__=='__main__':
 
     # Based on input, call classifiers
     if   args.classifier == 'perceptron':
-        model = Perceptron(eta=0.1, iters=10)
+        model = Perceptron(args.eta, args.iters)
     elif args.classifier == 'adaline':
-        model = Adaline(eta=0.1, iters=10)
+        model = Adaline(args.eta, args.iters)
     elif args.classifier == 'sgd':
-        model = SGD(eta=0.1, iters=10)
+        model = SGD(args.eta, args.iters)
     elif args.classifier == 'ovr':
-        model = OVR(data['classes'], eta=0.1, iters=10)
+        model = OVR(data['classes'], args.eta, args.iters)
 
     model.fit(X, y)
     res = model.predict(Xs)
 
     matches = 0
-    print(res)
-    print(ys)
-    for i in range(len(ys)):
-        if res[i] == ys[i]:
-            matches += 1
-    accuracy = float(matches) / float(len(ys))
+
+    if args.classifier == 'ovr':
+        accuracy = []
+        res  = res[1]
+        clas = res[0]
+        print(res)
+        print(np.where(ys == clas, 1, -1))
+        for i in range(len(res)):
+            ys = np.where(ys == clas, 1, -1)
+            for j in range(len(res)):
+                if res[i][j] == ys[j]:
+                    matches += 1
+            accuracy.append(float(matches) / float(len(ys)))
+    else:
+        print(res)
+        print(ys)
+        for i in range(len(ys)):
+            if res[i] == ys[i]:
+                matches += 1
+        accuracy = float(matches) / float(len(ys))
 
     print(accuracy)

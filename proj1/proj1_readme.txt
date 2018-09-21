@@ -9,3 +9,5 @@ Note: the iris dataset is shuffled to unsort the classes when I separate my trai
 6. python3.6 main.py datasets/adaline    winequality-red.csv
 7. python3.6 main.py datasets/sgd        winequality-red.csv
 8. python3.6 main.py datasets/ovr        winequality-red.csv
+
+You can also see `python3.6 main.py -h` for additional options

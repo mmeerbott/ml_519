@@ -1,0 +1,51 @@
+perceptron digits
+Training Size (instances): 1437
+Testing Size (instances): 360
+Train Time (s): 0.032584129978204146
+Test Time (s): 0.00030400799005292356
+Accuracy: 0.8861111111111111
+
+linsvm digits
+Training Size (instances): 1437
+Testing Size (instances): 360
+Train Time (s): 0.03801236397703178
+Test Time (s): 0.01098349000676535
+Accuracy: 0.9305555555555556
+
+nonlinsvm digits
+Training Size (instances): 1437
+Testing Size (instances): 360
+Train Time (s): 0.36848922801436856
+Test Time (s): 0.04052759599289857
+Accuracy: 0.95
+
+dtree digits
+Training Size (instances): 1437
+Testing Size (instances): 360
+Train Time (s): 0.008211869979277253
+Test Time (s): 0.0001666200114414096
+Accuracy: 0.55
+
+knn digits
+Training Size (instances): 1437
+Testing Size (instances): 360
+Train Time (s): 0.0030904689920134842
+Test Time (s): 0.05778124197968282
+Accuracy: 0.9638888888888889
+
+logreg digits
+Training Size (instances): 1437
+Testing Size (instances): 360
+Train Time (s): 0.2595817540131975
+Test Time (s): 0.0003204119857400656
+Accuracy: 0.8972222222222223
+
+perceptron realdisp
+Training Size (instances): 143229
+Testing Size (instances): 35808
+Train Time (s): 8.038181312003871
+Test Time (s): 0.01086566099547781
+Accuracy: 1.0
+
+linsvm, nonlinsvm, dtree, knn, logreg -- realdisp
+<< STOPPED 30 min in >>

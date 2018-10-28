@@ -1,4 +1,4 @@
-Project 3 Report
+Project 4 Report
 ================
 
 
@@ -53,6 +53,8 @@ Test Time (s): 0.0006739479722455144
 MSE train: 22.694, test: 28.444
 R^2 train: 0.735, test: -0.058
 
+------------------------------------------
+
 linreg datasets/all_breakdown.csv 
 Training Size (instances): 54067 
 Testing Size (instances): 13517 
@@ -104,34 +106,14 @@ R^2 train: 0.093, test: 0.079
 
 Analysis
 -------------
-The classifiers react heavily on their parameters. I mostly used the ones
-used in the notes, but when I changed some of them, the runtime increased and
-they all took a long time, so I wouldn't let them finish (Ctrl-C). Notably,
-when I changed C to a lower number in SVC, the runtime jumped and was running
-for tens of minutes. I couldn't get all of the runtimes for the REALDISP
-dataset. In retrospect, I think I should have cut down the number of instances.
+The Mean Squared Error (MSE) value tells us how much error there is in the
+prediction base on the data, and seems high for most of the runs. It tells us
+how off of the line the data fits. We can compare our test and train MSE to
+see if we are over fitting or under fitting based on the difference between 
+the two. When test is higher, we may be over fitting. 
 
-I used `subject1_ideal.log` from 
-[REALDISP](https://archive.ics.uci.edu/ml/datasets/REALDISP+Activity+Recognition+Dataset)
-
-Decision Tree Classifier
-------------------------
-The documentation states that the Decision Tree uses `max depth` and `min sample
-leaves`. By default, these are set to allow the tree to grow unpruned and can
-take up a lot of memory. This info can be found at the Notes section of the
-documentation.
-
-The source code when they're implemented can be found [here](https://github.com/scikit-learn/scikit-learn/blob/bac89c2/sklearn/tree/tree.py#L75)
-
-`min_samples_leaf` can be seen on line 175 and 205. It is used to calculate
-`min_samples_split`, by being multiplied as a factor to create the minimum
-number of decision splits. `min_samples_leaf` can be seen again in another
-[file](https://github.com/scikit-learn/scikit-learn/blob/a7e17117bb15eb3f51ebccc1bd53e42fcb4e6cd8/sklearn/tree/_tree.pyx#L455).
-
-
-`max depth` can also be found in the same files, on line 534 
-[here](https://github.com/scikit-learn/scikit-learn/blob/bac89c2/sklearn/tree/tree.py#L534),
-and line 453
-[here](https://github.com/scikit-learn/scikit-learn/blob/a7e17117bb15eb3f51ebccc1bd53e42fcb4e6cd8/sklearn/tree/_tree.pyx#L455).
-It controls the maximum depth the tree will grow to.
+The R^2 data is easier to read, since we know 1.0 means a better fit. for the
+housing data, the R^2 values are closer to 0, which means we had better 
+predictions there. For the other dataset, the number is closer to 0 for most
+of them, meaning it was not as good of fit (we want 1).
 

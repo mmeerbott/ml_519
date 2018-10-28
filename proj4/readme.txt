@@ -10,3 +10,4 @@
 ./main.py lasso      datasets/all_breakdown.csvt
 ./main.py nonlinear  datasets/all_breakdown.csvt
 
+Note: Deleted the time column in the California dataset as it is a string

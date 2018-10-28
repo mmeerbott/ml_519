@@ -34,6 +34,9 @@ def getDataset(dataset_name):
     else:  # assume it is a normal csv w/ header
         df = read_csv(dataset_name)
 
+    # fill missing data
+    df.fillna(df.mean(), inplace=True)
+
     # assume last col is target
     X = df.iloc[:, [0,-2]]
     y = df.iloc[:, -1]
@@ -147,6 +150,10 @@ if __name__=='__main__':
     stop  = timeit.default_timer()
     print("Test Time (s): " + str(stop-start))
 
+    # slope and intercept if linear
+    if (args.classifier != 'nonlinear'):
+        print('Data slope: %.3f, intercept: %.3f' % (normalEquation(X,y)))
+
     # MSE 
     error_train = mean_squared_error(y_train, y_train_pred)
     error_test  = mean_squared_error(y_test,  y_test_pred)
@@ -158,9 +165,9 @@ if __name__=='__main__':
     print('R^2 train: %.3f, test: %.3f' % (r2_train, r2_test))
 
     # Plot
-    simplePlot(X, y_train_pred, y_test_pred, y_test, y_train)
-
+#    simplePlot(X, y_train_pred, y_test_pred, y_test, y_train)
 
     # Calc Accuracy
     #acc = accuracy_score(y_test, y_pred)
     #print("Accuracy: " + str(acc))
+    print('\n')

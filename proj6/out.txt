@@ -1,0 +1,22 @@
+lda datasets/iris_shuffled.csv
+Training Size (instances): 120
+Testing Size (instances): 30
+Run Time (s): 0.002578632964286953
+Accuracy: 1.0
+
+
+pca datasets/iris_shuffled.csv
+Training Size (instances): 120
+Testing Size (instances): 30
+Run Time (s): 0.002086845983285457
+Accuracy: 1.0
+
+
+kpca datasets/iris_shuffled.csv
+Training Size (instances): 120
+Testing Size (instances): 30
+Run Time (s): 0.012264582968782634
+Accuracy: 1.0
+
+
+-----

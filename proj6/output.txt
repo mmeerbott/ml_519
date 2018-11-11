@@ -1,0 +1,43 @@
+lda datasets/iris_shuffled.csv
+Training Size (instances): 120
+Testing Size (instances): 30
+Run Time (s): 0.002611509000416845
+Accuracy: 1.0
+
+
+pca datasets/iris_shuffled.csv
+Training Size (instances): 120
+Testing Size (instances): 30
+Run Time (s): 0.002102181955706328
+Accuracy: 1.0
+
+
+kpca datasets/iris_shuffled.csv
+Training Size (instances): 120
+Testing Size (instances): 30
+Run Time (s): 0.012456855969503522
+Accuracy: 1.0
+
+
+-----
+lda mnist
+Training Size (instances): 1437
+Testing Size (instances): 360
+Run Time (s): 0.011285066953860223
+Accuracy: 0.9055555555555556
+
+
+pca mnist
+Training Size (instances): 1437
+Testing Size (instances): 360
+Run Time (s): 0.0055523019982501864
+Accuracy: 0.9055555555555556
+
+
+kpca mnist
+Training Size (instances): 1437
+Testing Size (instances): 360
+Run Time (s): 0.014835996960755438
+Accuracy: 0.9055555555555556
+
+

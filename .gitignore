@@ -2,3 +2,4 @@ notes/
 datasets_nogit/
 latex/
 *.swp
+**/__pycache__

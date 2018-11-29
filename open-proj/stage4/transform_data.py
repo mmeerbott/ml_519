@@ -16,6 +16,9 @@ def years_in_header(filename):
     """ Transforms the years (+data) into individual rows
         Requires the format to be:
             state,[years,...]
+
+        Does not rename the header field for data as it is never provided,
+        the user must do this
     """
     csvout = append_out(filename)
     with open(filename, 'r') as infile, open(csvout, 'w') as outfile:

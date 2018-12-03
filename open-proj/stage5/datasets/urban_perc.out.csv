@@ -1,0 +1,562 @@
+state,year,perc_urban
+Alabama,2000,55.4
+Alabama,2001,55.85
+Alabama,2002,56.3
+Alabama,2003,56.75
+Alabama,2004,56.975
+Alabama,2005,57.2
+Alabama,2006,57.425
+Alabama,2007,57.65
+Alabama,2008,58.1
+Alabama,2009,58.55
+Alabama,2010,59
+Alaska,2000,65.6
+Alaska,2001,65.65
+Alaska,2002,65.7
+Alaska,2003,65.75
+Alaska,2004,65.775
+Alaska,2005,65.8
+Alaska,2006,65.825
+Alaska,2007,65.85
+Alaska,2008,65.9
+Alaska,2009,65.95
+Alaska,2010,66
+Arizona,2000,88.2
+Arizona,2001,88.4
+Arizona,2002,88.6
+Arizona,2003,88.8
+Arizona,2004,88.9
+Arizona,2005,89
+Arizona,2006,89.1
+Arizona,2007,89.2
+Arizona,2008,89.4
+Arizona,2009,89.6
+Arizona,2010,89.8
+Arkansas,2000,52.5
+Arkansas,2001,52.9625
+Arkansas,2002,53.425
+Arkansas,2003,53.8875
+Arkansas,2004,54.11875
+Arkansas,2005,54.35
+Arkansas,2006,54.58125
+Arkansas,2007,54.8125
+Arkansas,2008,55.275
+Arkansas,2009,55.7375
+Arkansas,2010,56.2
+California,2000,94.4
+California,2001,94.5
+California,2002,94.6
+California,2003,94.7
+California,2004,94.75
+California,2005,94.8
+California,2006,94.85
+California,2007,94.9
+California,2008,95
+California,2009,95.1
+California,2010,95.2
+Colorado,2000,84.5
+Colorado,2001,84.7125
+Colorado,2002,84.925
+Colorado,2003,85.1375
+Colorado,2004,85.24375
+Colorado,2005,85.35
+Colorado,2006,85.45625
+Colorado,2007,85.5625
+Colorado,2008,85.775
+Colorado,2009,85.9875
+Colorado,2010,86.2
+Connecticut,2000,87.7
+Connecticut,2001,87.7375
+Connecticut,2002,87.775
+Connecticut,2003,87.8125
+Connecticut,2004,87.83125
+Connecticut,2005,87.85
+Connecticut,2006,87.86875
+Connecticut,2007,87.8875
+Connecticut,2008,87.925
+Connecticut,2009,87.9625
+Connecticut,2010,88
+Delaware,2000,80.1
+Delaware,2001,80.5
+Delaware,2002,80.9
+Delaware,2003,81.3
+Delaware,2004,81.5
+Delaware,2005,81.7
+Delaware,2006,81.9
+Delaware,2007,82.1
+Delaware,2008,82.5
+Delaware,2009,82.9
+Delaware,2010,83.3
+District of Columbia,2000,100
+District of Columbia,2001,100
+District of Columbia,2002,100
+District of Columbia,2003,100
+District of Columbia,2004,100
+District of Columbia,2005,100
+District of Columbia,2006,100
+District of Columbia,2007,100
+District of Columbia,2008,100
+District of Columbia,2009,100
+District of Columbia,2010,100
+Florida,2000,89.3
+Florida,2001,89.5375
+Florida,2002,89.775
+Florida,2003,90.0125
+Florida,2004,90.13125
+Florida,2005,90.25
+Florida,2006,90.36875
+Florida,2007,90.4875
+Florida,2008,90.725
+Florida,2009,90.9625
+Florida,2010,91.2
+Georgia,2000,71.6
+Georgia,2001,72.0375
+Georgia,2002,72.475
+Georgia,2003,72.9125
+Georgia,2004,73.13125
+Georgia,2005,73.35
+Georgia,2006,73.56875
+Georgia,2007,73.7875
+Georgia,2008,74.225
+Georgia,2009,74.6625
+Georgia,2010,75.1
+Hawaii,2000,91.5
+Hawaii,2001,91.55
+Hawaii,2002,91.6
+Hawaii,2003,91.65
+Hawaii,2004,91.675
+Hawaii,2005,91.7
+Hawaii,2006,91.725
+Hawaii,2007,91.75
+Hawaii,2008,91.8
+Hawaii,2009,91.85
+Hawaii,2010,91.9
+Idaho,2000,66.4
+Idaho,2001,66.925
+Idaho,2002,67.45
+Idaho,2003,67.975
+Idaho,2004,68.2375
+Idaho,2005,68.5
+Idaho,2006,68.7625
+Idaho,2007,69.025
+Idaho,2008,69.55
+Idaho,2009,70.075
+Idaho,2010,70.6
+Illinois,2000,87.8
+Illinois,2001,87.8875
+Illinois,2002,87.975
+Illinois,2003,88.0625
+Illinois,2004,88.10625
+Illinois,2005,88.15
+Illinois,2006,88.19375
+Illinois,2007,88.2375
+Illinois,2008,88.325
+Illinois,2009,88.4125
+Illinois,2010,88.5
+Indiana,2000,70.8
+Indiana,2001,71
+Indiana,2002,71.2
+Indiana,2003,71.4
+Indiana,2004,71.5
+Indiana,2005,71.6
+Indiana,2006,71.7
+Indiana,2007,71.8
+Indiana,2008,72
+Indiana,2009,72.2
+Indiana,2010,72.4
+Iowa,2000,61.1
+Iowa,2001,61.4625
+Iowa,2002,61.825
+Iowa,2003,62.1875
+Iowa,2004,62.36875
+Iowa,2005,62.55
+Iowa,2006,62.73125
+Iowa,2007,62.9125
+Iowa,2008,63.275
+Iowa,2009,63.6375
+Iowa,2010,64
+Kansas,2000,71.4
+Kansas,2001,71.75
+Kansas,2002,72.1
+Kansas,2003,72.45
+Kansas,2004,72.625
+Kansas,2005,72.8
+Kansas,2006,72.975
+Kansas,2007,73.15
+Kansas,2008,73.5
+Kansas,2009,73.85
+Kansas,2010,74.2
+Kentucky,2000,55.8
+Kentucky,2001,56.125
+Kentucky,2002,56.45
+Kentucky,2003,56.775
+Kentucky,2004,56.9375
+Kentucky,2005,57.1
+Kentucky,2006,57.2625
+Kentucky,2007,57.425
+Kentucky,2008,57.75
+Kentucky,2009,58.075
+Kentucky,2010,58.4
+Louisiana,2000,72.6
+Louisiana,2001,72.675
+Louisiana,2002,72.75
+Louisiana,2003,72.825
+Louisiana,2004,72.8625
+Louisiana,2005,72.9
+Louisiana,2006,72.9375
+Louisiana,2007,72.975
+Louisiana,2008,73.05
+Louisiana,2009,73.125
+Louisiana,2010,73.2
+Maine,2000,40.2
+Maine,2001,40.0125
+Maine,2002,39.825
+Maine,2003,39.6375
+Maine,2004,39.54375
+Maine,2005,39.45
+Maine,2006,39.35625
+Maine,2007,39.2625
+Maine,2008,39.075
+Maine,2009,38.8875
+Maine,2010,38.7
+Maryland,2000,86.1
+Maryland,2001,86.2375
+Maryland,2002,86.375
+Maryland,2003,86.5125
+Maryland,2004,86.58125
+Maryland,2005,86.65
+Maryland,2006,86.71875
+Maryland,2007,86.7875
+Maryland,2008,86.925
+Maryland,2009,87.0625
+Maryland,2010,87.2
+Massachusetts,2000,91.4
+Massachusetts,2001,91.475
+Massachusetts,2002,91.55
+Massachusetts,2003,91.625
+Massachusetts,2004,91.6625
+Massachusetts,2005,91.7
+Massachusetts,2006,91.7375
+Massachusetts,2007,91.775
+Massachusetts,2008,91.85
+Massachusetts,2009,91.925
+Massachusetts,2010,92
+Michigan,2000,74.7
+Michigan,2001,74.6875
+Michigan,2002,74.675
+Michigan,2003,74.6625
+Michigan,2004,74.65625
+Michigan,2005,74.65
+Michigan,2006,74.64375
+Michigan,2007,74.6375
+Michigan,2008,74.625
+Michigan,2009,74.6125
+Michigan,2010,74.6
+Minnesota,2000,70.9
+Minnesota,2001,71.2
+Minnesota,2002,71.5
+Minnesota,2003,71.8
+Minnesota,2004,71.95
+Minnesota,2005,72.1
+Minnesota,2006,72.25
+Minnesota,2007,72.4
+Minnesota,2008,72.7
+Minnesota,2009,73
+Minnesota,2010,73.3
+Mississippi,2000,48.8
+Mississippi,2001,48.8625
+Mississippi,2002,48.925
+Mississippi,2003,48.9875
+Mississippi,2004,49.01875
+Mississippi,2005,49.05
+Mississippi,2006,49.08125
+Mississippi,2007,49.1125
+Mississippi,2008,49.175
+Mississippi,2009,49.2375
+Mississippi,2010,49.3
+Missouri,2000,69.4
+Missouri,2001,69.525
+Missouri,2002,69.65
+Missouri,2003,69.775
+Missouri,2004,69.8375
+Missouri,2005,69.9
+Missouri,2006,69.9625
+Missouri,2007,70.025
+Missouri,2008,70.15
+Missouri,2009,70.275
+Missouri,2010,70.4
+Montana,2000,54.1
+Montana,2001,54.325
+Montana,2002,54.55
+Montana,2003,54.775
+Montana,2004,54.8875
+Montana,2005,55
+Montana,2006,55.1125
+Montana,2007,55.225
+Montana,2008,55.45
+Montana,2009,55.675
+Montana,2010,55.9
+Nebraska,2000,69.8
+Nebraska,2001,70.2125
+Nebraska,2002,70.625
+Nebraska,2003,71.0375
+Nebraska,2004,71.24375
+Nebraska,2005,71.45
+Nebraska,2006,71.65625
+Nebraska,2007,71.8625
+Nebraska,2008,72.275
+Nebraska,2009,72.6875
+Nebraska,2010,73.1
+Nevada,2000,91.5
+Nevada,2001,91.8375
+Nevada,2002,92.175
+Nevada,2003,92.5125
+Nevada,2004,92.68125
+Nevada,2005,92.85
+Nevada,2006,93.01875
+Nevada,2007,93.1875
+Nevada,2008,93.525
+Nevada,2009,93.8625
+Nevada,2010,94.2
+New Hampshire,2000,59.3
+New Hampshire,2001,59.425
+New Hampshire,2002,59.55
+New Hampshire,2003,59.675
+New Hampshire,2004,59.7375
+New Hampshire,2005,59.8
+New Hampshire,2006,59.8625
+New Hampshire,2007,59.925
+New Hampshire,2008,60.05
+New Hampshire,2009,60.175
+New Hampshire,2010,60.3
+New Jersey,2000,94.4
+New Jersey,2001,94.4375
+New Jersey,2002,94.475
+New Jersey,2003,94.5125
+New Jersey,2004,94.53125
+New Jersey,2005,94.55
+New Jersey,2006,94.56875
+New Jersey,2007,94.5875
+New Jersey,2008,94.625
+New Jersey,2009,94.6625
+New Jersey,2010,94.7
+New Mexico,2000,75
+New Mexico,2001,75.3
+New Mexico,2002,75.6
+New Mexico,2003,75.9
+New Mexico,2004,76.05
+New Mexico,2005,76.2
+New Mexico,2006,76.35
+New Mexico,2007,76.5
+New Mexico,2008,76.8
+New Mexico,2009,77.1
+New Mexico,2010,77.4
+New York,2000,87.5
+New York,2001,87.55
+New York,2002,87.6
+New York,2003,87.65
+New York,2004,87.675
+New York,2005,87.7
+New York,2006,87.725
+New York,2007,87.75
+New York,2008,87.8
+New York,2009,87.85
+New York,2010,87.9
+North Carolina,2000,60.2
+North Carolina,2001,60.9375
+North Carolina,2002,61.675
+North Carolina,2003,62.4125
+North Carolina,2004,62.78125
+North Carolina,2005,63.15
+North Carolina,2006,63.51875
+North Carolina,2007,63.8875
+North Carolina,2008,64.625
+North Carolina,2009,65.3625
+North Carolina,2010,66.1
+North Dakota,2000,55.9
+North Dakota,2001,56.4
+North Dakota,2002,56.9
+North Dakota,2003,57.4
+North Dakota,2004,57.65
+North Dakota,2005,57.9
+North Dakota,2006,58.15
+North Dakota,2007,58.4
+North Dakota,2008,58.9
+North Dakota,2009,59.4
+North Dakota,2010,59.9
+Ohio,2000,77.4
+Ohio,2001,77.4625
+Ohio,2002,77.525
+Ohio,2003,77.5875
+Ohio,2004,77.61875
+Ohio,2005,77.65
+Ohio,2006,77.68125
+Ohio,2007,77.7125
+Ohio,2008,77.775
+Ohio,2009,77.8375
+Ohio,2010,77.9
+Oklahoma,2000,65.3
+Oklahoma,2001,65.4125
+Oklahoma,2002,65.525
+Oklahoma,2003,65.6375
+Oklahoma,2004,65.69375
+Oklahoma,2005,65.75
+Oklahoma,2006,65.80625
+Oklahoma,2007,65.8625
+Oklahoma,2008,65.975
+Oklahoma,2009,66.0875
+Oklahoma,2010,66.2
+Oregon,2000,78.7
+Oregon,2001,78.9875
+Oregon,2002,79.275
+Oregon,2003,79.5625
+Oregon,2004,79.70625
+Oregon,2005,79.85
+Oregon,2006,79.99375
+Oregon,2007,80.1375
+Oregon,2008,80.425
+Oregon,2009,80.7125
+Oregon,2010,81
+Pennsylvania,2000,77.1
+Pennsylvania,2001,77.3
+Pennsylvania,2002,77.5
+Pennsylvania,2003,77.7
+Pennsylvania,2004,77.8
+Pennsylvania,2005,77.9
+Pennsylvania,2006,78
+Pennsylvania,2007,78.1
+Pennsylvania,2008,78.3
+Pennsylvania,2009,78.5
+Pennsylvania,2010,78.7
+Rhode Island,2000,90.9
+Rhode Island,2001,90.875
+Rhode Island,2002,90.85
+Rhode Island,2003,90.825
+Rhode Island,2004,90.8125
+Rhode Island,2005,90.8
+Rhode Island,2006,90.7875
+Rhode Island,2007,90.775
+Rhode Island,2008,90.75
+Rhode Island,2009,90.725
+Rhode Island,2010,90.7
+South Carolina,2000,60.5
+South Carolina,2001,61.225
+South Carolina,2002,61.95
+South Carolina,2003,62.675
+South Carolina,2004,63.0375
+South Carolina,2005,63.4
+South Carolina,2006,63.7625
+South Carolina,2007,64.125
+South Carolina,2008,64.85
+South Carolina,2009,65.575
+South Carolina,2010,66.3
+South Dakota,2000,51.9
+South Dakota,2001,52.5
+South Dakota,2002,53.1
+South Dakota,2003,53.7
+South Dakota,2004,54
+South Dakota,2005,54.3
+South Dakota,2006,54.6
+South Dakota,2007,54.9
+South Dakota,2008,55.5
+South Dakota,2009,56.1
+South Dakota,2010,56.7
+Tennessee,2000,63.6
+Tennessee,2001,63.95
+Tennessee,2002,64.3
+Tennessee,2003,64.65
+Tennessee,2004,64.825
+Tennessee,2005,65
+Tennessee,2006,65.175
+Tennessee,2007,65.35
+Tennessee,2008,65.7
+Tennessee,2009,66.05
+Tennessee,2010,66.4
+Texas,2000,82.5
+Texas,2001,82.775
+Texas,2002,83.05
+Texas,2003,83.325
+Texas,2004,83.4625
+Texas,2005,83.6
+Texas,2006,83.7375
+Texas,2007,83.875
+Texas,2008,84.15
+Texas,2009,84.425
+Texas,2010,84.7
+Utah,2000,88.2
+Utah,2001,88.5
+Utah,2002,88.8
+Utah,2003,89.1
+Utah,2004,89.25
+Utah,2005,89.4
+Utah,2006,89.55
+Utah,2007,89.7
+Utah,2008,90
+Utah,2009,90.3
+Utah,2010,90.6
+Vermont,2000,38.2
+Vermont,2001,38.2875
+Vermont,2002,38.375
+Vermont,2003,38.4625
+Vermont,2004,38.50625
+Vermont,2005,38.55
+Vermont,2006,38.59375
+Vermont,2007,38.6375
+Vermont,2008,38.725
+Vermont,2009,38.8125
+Vermont,2010,38.9
+Virginia,2000,73
+Virginia,2001,73.3125
+Virginia,2002,73.625
+Virginia,2003,73.9375
+Virginia,2004,74.09375
+Virginia,2005,74.25
+Virginia,2006,74.40625
+Virginia,2007,74.5625
+Virginia,2008,74.875
+Virginia,2009,75.1875
+Virginia,2010,75.5
+Washington,2000,82
+Washington,2001,82.25
+Washington,2002,82.5
+Washington,2003,82.75
+Washington,2004,82.875
+Washington,2005,83
+Washington,2006,83.125
+Washington,2007,83.25
+Washington,2008,83.5
+Washington,2009,83.75
+Washington,2010,84
+West Virginia,2000,46.1
+West Virginia,2001,46.425
+West Virginia,2002,46.75
+West Virginia,2003,47.075
+West Virginia,2004,47.2375
+West Virginia,2005,47.4
+West Virginia,2006,47.5625
+West Virginia,2007,47.725
+West Virginia,2008,48.05
+West Virginia,2009,48.375
+West Virginia,2010,48.7
+Wisconsin,2000,68.3
+Wisconsin,2001,68.5375
+Wisconsin,2002,68.775
+Wisconsin,2003,69.0125
+Wisconsin,2004,69.13125
+Wisconsin,2005,69.25
+Wisconsin,2006,69.36875
+Wisconsin,2007,69.4875
+Wisconsin,2008,69.725
+Wisconsin,2009,69.9625
+Wisconsin,2010,70.2
+Wyoming,2000,65.1
+Wyoming,2001,65.0625
+Wyoming,2002,65.025
+Wyoming,2003,64.9875
+Wyoming,2004,64.96875
+Wyoming,2005,64.95
+Wyoming,2006,64.93125
+Wyoming,2007,64.9125
+Wyoming,2008,64.875
+Wyoming,2009,64.8375
+Wyoming,2010,64.8

@@ -1,0 +1,919 @@
+state,year,avg_income
+Alabama,2017,51113
+Alabama,2016,48237
+Alabama,2015,46053
+Alabama,2014,43820
+Alabama,2013,49876
+Alabama,2012,43616
+Alabama,2011,46490
+Alabama,2010,46520
+Alabama,2009,46120
+Alabama,2008,45789
+Alabama,2007,50761
+Alabama,2006,50028
+Alabama,2005,46255
+Alabama,2004,46745
+Alabama,2003,47651
+Alabama,2002,49774
+Alabama,2001,51380
+Alabama,2000,48800
+Alaska,2017,72231
+Alaska,2016,77351
+Alaska,2015,77717
+Alaska,2014,70095
+Alaska,2013,76387
+Alaska,2012,64439
+Alaska,2011,68080
+Alaska,2010,62731
+Alaska,2009,65178
+Alaska,2008,70555
+Alaska,2007,73032
+Alaska,2006,74657
+Alaska,2005,68761
+Alaska,2004,70326
+Alaska,2003,71632
+Alaska,2002,69257
+Alaska,2001,72110
+Alaska,2000,79616
+Arizona,2017,61125
+Arizona,2016,58328
+Arizona,2015,54060
+Arizona,2014,51050
+Arizona,2013,55453
+Arizona,2012,53335
+Arizona,2011,50320
+Arizona,2010,53108
+Arizona,2009,52839
+Arizona,2008,52385
+Arizona,2007,53544
+Arizona,2006,55957
+Arizona,2005,56864
+Arizona,2004,56931
+Arizona,2003,57039
+Arizona,2002,55000
+Arizona,2001,54292
+Arizona,2000,59270
+Arkansas,2017,48829
+Arkansas,2016,46894
+Arkansas,2015,44282
+Arkansas,2014,46560
+Arkansas,2013,41503
+Arkansas,2012,42075
+Arkansas,2011,41735
+Arkansas,2010,45114
+Arkansas,2009,43477
+Arkansas,2008,41847
+Arkansas,2007,45180
+Arkansas,2006,48349
+Arkansas,2005,45164
+Arkansas,2004,46126
+Arkansas,2003,45511
+Arkansas,2002,42756
+Arkansas,2001,44253
+Arkansas,2000,46272
+California,2017,69759
+California,2016,68070
+California,2015,65843
+California,2014,62693
+California,2013,64078
+California,2012,60635
+California,2011,60990
+California,2010,58292
+California,2009,61162
+California,2008,64291
+California,2007,65071
+California,2006,66054
+California,2005,67421
+California,2004,65122
+California,2003,64033
+California,2002,65867
+California,2001,64817
+California,2000,65596
+Colorado,2017,74172
+Colorado,2016,72084
+Colorado,2015,68906
+Colorado,2014,63162
+Colorado,2013,71580
+Colorado,2012,66794
+Colorado,2011,61242
+Colorado,2010,64040
+Colorado,2009,67866
+Colorado,2008,64057
+Colorado,2007,69556
+Colorado,2006,72462
+Colorado,2005,67882
+Colorado,2004,63479
+Colorado,2003,66198
+Colorado,2002,66722
+Colorado,2001,65988
+Colorado,2000,68559
+Connecticut,2017,72780
+Connecticut,2016,77556
+Connecticut,2015,75417
+Connecticut,2014,72719
+Connecticut,2013,73034
+Connecticut,2012,71442
+Connecticut,2011,68720
+Connecticut,2010,71452
+Connecticut,2009,74361
+Connecticut,2008,74274
+Connecticut,2007,73823
+Connecticut,2006,76017
+Connecticut,2005,76056
+Connecticut,2004,71514
+Connecticut,2003,71680
+Connecticut,2002,73436
+Connecticut,2001,72947
+Connecticut,2000,74042
+Delaware,2017,62318
+Delaware,2016,59294
+Delaware,2015,59759
+Delaware,2014,59619
+Delaware,2013,57013
+Delaware,2012,55040
+Delaware,2011,52382
+Delaware,2010,59704
+Delaware,2009,62211
+Delaware,2008,59686
+Delaware,2007,57867
+Delaware,2006,64697
+Delaware,2005,63910
+Delaware,2004,64468
+Delaware,2003,62507
+Delaware,2002,65492
+Delaware,2001,67841
+Delaware,2000,68844
+D.C.,2017,83382
+D.C.,2016,72508
+D.C.,2015,72501
+D.C.,2014,70767
+D.C.,2013,63301
+D.C.,2012,63952
+D.C.,2011,69789
+D.C.,2010,60350
+D.C.,2009,64142
+D.C.,2008,60863
+D.C.,2007,63446
+D.C.,2006,60186
+D.C.,2005,59082
+D.C.,2004,56614
+D.C.,2003,56525
+D.C.,2002,60181
+D.C.,2001,53385
+D.C.,2000,57140
+Florida,2017,53681
+Florida,2016,52277
+Florida,2015,50518
+Florida,2014,47822
+Florida,2013,51153
+Florida,2012,50473
+Florida,2011,49279
+Florida,2010,49267
+Florida,2009,49650
+Florida,2008,52261
+Florida,2007,51196
+Florida,2006,54273
+Florida,2005,55669
+Florida,2004,54093
+Florida,2003,52732
+Florida,2002,52068
+Florida,2001,51956
+Florida,2000,50550
+Georgia,2017,57016
+Georgia,2016,54678
+Georgia,2015,52529
+Georgia,2014,51362
+Georgia,2013,49530
+Georgia,2012,50001
+Georgia,2011,51472
+Georgia,2010,50216
+Georgia,2009,49707
+Georgia,2008,49638
+Georgia,2007,52760
+Georgia,2006,57647
+Georgia,2005,60139
+Georgia,2004,57788
+Georgia,2003,53316
+Georgia,2002,56699
+Georgia,2001,58671
+Georgia,2000,59092
+Hawaii,2017,73575
+Hawaii,2016,73684
+Hawaii,2015,66751
+Hawaii,2014,73820
+Hawaii,2013,67705
+Hawaii,2012,64725
+Hawaii,2011,60181
+Hawaii,2010,64496
+Hawaii,2009,67084
+Hawaii,2008,63735
+Hawaii,2007,70215
+Hawaii,2006,75876
+Hawaii,2005,73699
+Hawaii,2004,74976
+Hawaii,2003,73165
+Hawaii,2002,69253
+Hawaii,2001,64634
+Hawaii,2000,65842
+Idaho,2017,60208
+Idaho,2016,57780
+Idaho,2015,53414
+Idaho,2014,55387
+Idaho,2013,51085
+Idaho,2012,54563
+Idaho,2011,51259
+Idaho,2010,51839
+Idaho,2009,53012
+Idaho,2008,53575
+Idaho,2007,54121
+Idaho,2006,58291
+Idaho,2005,56323
+Idaho,2004,55586
+Idaho,2003,57705
+Idaho,2002,56611
+Idaho,2001,51533
+Idaho,2000,53076
+Illinois,2017,64609
+Illinois,2016,62706
+Illinois,2015,62508
+Illinois,2014,56918
+Illinois,2013,56850
+Illinois,2012,60285
+Illinois,2011,55340
+Illinois,2010,55310
+Illinois,2009,57156
+Illinois,2008,60552
+Illinois,2007,60780
+Illinois,2006,62228
+Illinois,2005,59319
+Illinois,2004,60898
+Illinois,2003,59942
+Illinois,2002,60327
+Illinois,2001,58358
+Illinois,2000,64082
+Indiana,2017,58873
+Indiana,2016,57300
+Indiana,2015,53786
+Indiana,2014,49812
+Indiana,2013,52126
+Indiana,2012,53284
+Indiana,2011,49372
+Indiana,2010,48547
+Indiana,2009,51986
+Indiana,2008,50743
+Indiana,2007,53094
+Indiana,2006,56239
+Indiana,2005,55341
+Indiana,2004,53398
+Indiana,2003,55066
+Indiana,2002,56682
+Indiana,2001,56086
+Indiana,2000,56043
+Iowa,2017,63481
+Iowa,2016,60365
+Iowa,2015,62965
+Iowa,2014,59918
+Iowa,2013,63405
+Iowa,2012,57818
+Iowa,2011,57163
+Iowa,2010,54853
+Iowa,2009,55227
+Iowa,2008,58091
+Iowa,2007,57228
+Iowa,2006,57964
+Iowa,2005,58655
+Iowa,2004,58510
+Iowa,2003,56447
+Iowa,2002,55291
+Iowa,2001,56089
+Iowa,2000,56872
+Kansas,2017,57872
+Kansas,2016,58032
+Kansas,2015,56768
+Kansas,2014,55393
+Kansas,2013,50403
+Kansas,2012,54266
+Kansas,2011,53485
+Kansas,2010,50406
+Kansas,2009,51890
+Kansas,2008,51215
+Kansas,2007,54643
+Kansas,2006,57477
+Kansas,2005,55517
+Kansas,2004,52882
+Kansas,2003,53423
+Kansas,2002,59096
+Kansas,2001,58234
+Kansas,2000,57481
+Kentucky,2017,51348
+Kentucky,2016,46345
+Kentucky,2015,43857
+Kentucky,2014,44346
+Kentucky,2013,47303
+Kentucky,2012,44435
+Kentucky,2011,43947
+Kentucky,2010,43534
+Kentucky,2009,46313
+Kentucky,2008,48863
+Kentucky,2007,46963
+Kentucky,2006,46757
+Kentucky,2005,48123
+Kentucky,2004,46178
+Kentucky,2003,46325
+Kentucky,2002,49348
+Kentucky,2001,50231
+Kentucky,2000,53348
+Louisiana,2017,43903
+Louisiana,2016,43103
+Louisiana,2015,47515
+Louisiana,2014,43952
+Louisiana,2013,48933
+Louisiana,2012,41762
+Louisiana,2011,41806
+Louisiana,2010,44410
+Louisiana,2009,44280
+Louisiana,2008,52035
+Louisiana,2007,45154
+Louisiana,2006,48963
+Louisiana,2005,44471
+Louisiana,2004,46853
+Louisiana,2003,47391
+Louisiana,2002,44767
+Louisiana,2001,46468
+Louisiana,2000,46249
+Maine,2017,51664
+Maine,2016,51950
+Maine,2015,52516
+Maine,2014,53595
+Maine,2013,57925
+Maine,2012,52828
+Maine,2011,52581
+Maine,2010,54279
+Maine,2009,54005
+Maine,2008,54404
+Maine,2007,53902
+Maine,2006,56762
+Maine,2005,55627
+Maine,2004,55267
+Maine,2003,53765
+Maine,2002,49585
+Maine,2001,50356
+Maine,2000,50815
+Maryland,2017,81084
+Maryland,2016,75346
+Maryland,2015,76146
+Maryland,2014,78942
+Maryland,2013,73099
+Maryland,2012,68787
+Maryland,2011,76838
+Maryland,2010,75232
+Maryland,2009,72336
+Maryland,2008,73513
+Maryland,2007,72715
+Maryland,2006,77782
+Maryland,2005,77597
+Maryland,2004,76141
+Maryland,2003,74285
+Maryland,2002,69894
+Maryland,2001,77074
+Maryland,2000,74296
+Massachusetts,2017,73227
+Massachusetts,2016,73820
+Massachusetts,2015,70214
+Massachusetts,2014,65454
+Massachusetts,2013,65906
+Massachusetts,2012,66364
+Massachusetts,2011,68088
+Massachusetts,2010,69156
+Massachusetts,2009,68655
+Massachusetts,2008,68000
+Massachusetts,2007,68845
+Massachusetts,2006,69288
+Massachusetts,2005,67435
+Massachusetts,2004,70485
+Massachusetts,2003,67672
+Massachusetts,2002,68078
+Massachusetts,2001,68121
+Massachusetts,2000,72523
+Michigan,2017,57700
+Michigan,2016,58319
+Michigan,2015,56083
+Michigan,2014,53901
+Michigan,2013,59622
+Michigan,2012,51437
+Michigan,2011,53498
+Michigan,2010,53390
+Michigan,2009,52140
+Michigan,2008,52677
+Michigan,2007,56824
+Michigan,2006,58511
+Michigan,2005,59290
+Michigan,2004,57796
+Michigan,2003,54971
+Michigan,2002,60152
+Michigan,2001,58365
+Michigan,2000,62522
+Minnesota,2017,71920
+Minnesota,2016,71728
+Minnesota,2015,71114
+Minnesota,2014,69696
+Minnesota,2013,67798
+Minnesota,2012,64197
+Minnesota,2011,66098
+Minnesota,2010,63156
+Minnesota,2009,58951
+Minnesota,2008,64240
+Minnesota,2007,62687
+Minnesota,2006,68808
+Minnesota,2005,68508
+Minnesota,2004,68218
+Minnesota,2003,72986
+Minnesota,2002,70574
+Minnesota,2001,74635
+Minnesota,2000,73117
+Mississippi,2017,43441
+Mississippi,2016,41983
+Mississippi,2015,41426
+Mississippi,2014,36816
+Mississippi,2013,34085
+Mississippi,2012,43056
+Mississippi,2011,39192
+Mississippi,2010,44882
+Mississippi,2009,42996
+Mississippi,2008,40175
+Mississippi,2007,41597
+Mississippi,2006,44182
+Mississippi,2005,42332
+Mississippi,2004,41366
+Mississippi,2003,45213
+Mississippi,2002,43726
+Mississippi,2001,42197
+Mississippi,2000,41861
+Missouri,2017,56885
+Missouri,2016,56199
+Missouri,2015,61249
+Missouri,2014,58695
+Missouri,2013,48804
+Missouri,2012,53029
+Missouri,2011,53229
+Missouri,2010,49998
+Missouri,2009,51623
+Missouri,2008,55855
+Missouri,2007,52544
+Missouri,2006,54523
+Missouri,2005,54332
+Missouri,2004,54088
+Missouri,2003,54816
+Missouri,2002,58468
+Missouri,2001,58449
+Missouri,2000,57376
+Montana,2017,59087
+Montana,2016,58302
+Montana,2015,53177
+Montana,2014,52965
+Montana,2013,45534
+Montana,2012,46516
+Montana,2011,48227
+Montana,2010,43994
+Montana,2009,46511
+Montana,2008,46313
+Montana,2007,48963
+Montana,2006,51738
+Montana,2005,50098
+Montana,2004,46950
+Montana,2003,44173
+Montana,2002,45570
+Montana,2001,47598
+Montana,2000,44589
+Nebraska,2017,59619
+Nebraska,2016,60651
+Nebraska,2015,62571
+Nebraska,2014,58944
+Nebraska,2013,60735
+Nebraska,2012,56679
+Nebraska,2011,55830
+Nebraska,2010,60748
+Nebraska,2009,59157
+Nebraska,2008,56801
+Nebraska,2007,57897
+Nebraska,2006,58279
+Nebraska,2005,58678
+Nebraska,2004,60300
+Nebraska,2003,56961
+Nebraska,2002,58751
+Nebraska,2001,58476
+Nebraska,2000,60529
+Nevada,2017,56550
+Nevada,2016,56623
+Nevada,2015,53812
+Nevada,2014,51694
+Nevada,2013,54646
+Nevada,2012,47820
+Nevada,2011,50629
+Nevada,2010,51384
+Nevada,2009,57688
+Nevada,2008,58908
+Nevada,2007,62481
+Nevada,2006,64067
+Nevada,2005,63720
+Nevada,2004,60660
+Nevada,2003,61408
+Nevada,2002,60368
+Nevada,2001,61430
+Nevada,2000,63016
+New Hampshire,2017,74801
+New Hampshire,2016,77900
+New Hampshire,2015,78299
+New Hampshire,2014,76073
+New Hampshire,2013,72831
+New Hampshire,2012,75174
+New Hampshire,2011,72541
+New Hampshire,2010,71960
+New Hampshire,2009,75077
+New Hampshire,2008,73450
+New Hampshire,2007,75528
+New Hampshire,2006,80088
+New Hampshire,2005,75527
+New Hampshire,2004,71702
+New Hampshire,2003,73911
+New Hampshire,2002,74240
+New Hampshire,2001,75590
+New Hampshire,2000,71244
+New Jersey,2017,72997
+New Jersey,2016,69940
+New Jersey,2015,70728
+New Jersey,2014,67622
+New Jersey,2013,67198
+New Jersey,2012,65119
+New Jersey,2011,71336
+New Jersey,2010,68091
+New Jersey,2009,70947
+New Jersey,2008,74189
+New Jersey,2007,74535
+New Jersey,2006,71712
+New Jersey,2005,82948
+New Jersey,2004,79735
+New Jersey,2003,71907
+New Jersey,2002,74879
+New Jersey,2001,74561
+New Jersey,2000,71854
+New Mexico,2017,47855
+New Mexico,2016,49493
+New Mexico,2015,46684
+New Mexico,2014,48388
+New Mexico,2013,42336
+New Mexico,2012,44402
+New Mexico,2011,46448
+New Mexico,2010,45856
+New Mexico,2009,50853
+New Mexico,2008,49869
+New Mexico,2007,48052
+New Mexico,2006,52569
+New Mexico,2005,48785
+New Mexico,2004,49006
+New Mexico,2003,51466
+New Mexico,2002,46902
+New Mexico,2001,48448
+New Mexico,2000,45974
+New York,2017,62447
+New York,2016,62758
+New York,2015,60017
+New York,2014,56290
+New York,2013,52665
+New York,2012,56751
+New York,2011,51000
+New York,2010,55309
+New York,2009,56089
+New York,2008,57513
+New York,2007,57592
+New York,2006,58007
+New York,2005,58772
+New York,2004,59361
+New York,2003,58084
+New York,2002,57167
+New York,2001,57342
+New York,2000,58451
+North Carolina,2017,50343
+North Carolina,2016,54920
+North Carolina,2015,52559
+North Carolina,2014,48490
+North Carolina,2013,48840
+North Carolina,2012,43434
+North Carolina,2011,44446
+North Carolina,2010,49378
+North Carolina,2009,49384
+North Carolina,2008,47995
+North Carolina,2007,48997
+North Carolina,2006,51570
+North Carolina,2005,48503
+North Carolina,2004,52918
+North Carolina,2003,52346
+North Carolina,2002,49807
+North Carolina,2001,49894
+North Carolina,2000,52966
+North Dakota,2017,59886
+North Dakota,2016,61478
+North Dakota,2015,59406
+North Dakota,2014,62944
+North Dakota,2013,62347
+North Dakota,2012,55745
+North Dakota,2011,59649
+North Dakota,2010,61562
+North Dakota,2009,57469
+North Dakota,2008,57351
+North Dakota,2007,56645
+North Dakota,2006,55946
+North Dakota,2005,50027
+North Dakota,2004,53089
+North Dakota,2003,51021
+North Dakota,2002,53990
+North Dakota,2001,49463
+North Dakota,2000,49678
+Ohio,2017,59768
+Ohio,2016,55146
+Ohio,2015,55150
+Ohio,2014,51454
+Ohio,2013,53489
+Ohio,2012,48904
+Ohio,2011,47465
+Ohio,2010,48768
+Ohio,2009,51701
+Ohio,2008,52545
+Ohio,2007,53567
+Ohio,2006,58190
+Ohio,2005,55942
+Ohio,2004,55620
+Ohio,2003,56010
+Ohio,2002,58145
+Ohio,2001,58323
+Ohio,2000,57995
+Oklahoma,2017,55006
+Oklahoma,2016,52039
+Oklahoma,2015,48710
+Oklahoma,2014,48920
+Oklahoma,2013,48655
+Oklahoma,2012,46142
+Oklahoma,2011,51778
+Oklahoma,2010,52927
+Oklahoma,2009,48565
+Oklahoma,2008,52544
+Oklahoma,2007,52627
+Oklahoma,2006,51218
+Oklahoma,2005,47335
+Oklahoma,2004,47368
+Oklahoma,2003,51534
+Oklahoma,2002,47967
+Oklahoma,2001,49816
+Oklahoma,2000,49423
+Oregon,2017,64610
+Oregon,2016,60407
+Oregon,2015,62944
+Oregon,2014,61022
+Oregon,2013,51646
+Oregon,2012,59348
+Oregon,2011,55380
+Oregon,2010,56281
+Oregon,2009,57014
+Oregon,2008,56232
+Oregon,2007,59037
+Oregon,2006,59538
+Oregon,2005,57393
+Oregon,2004,55564
+Oregon,2003,53329
+Oregon,2002,55630
+Oregon,2001,57118
+Oregon,2000,57284
+Pennsylvania,2017,63173
+Pennsylvania,2016,62290
+Pennsylvania,2015,62483
+Pennsylvania,2014,57185
+Pennsylvania,2013,58135
+Pennsylvania,2012,56866
+Pennsylvania,2011,55518
+Pennsylvania,2010,54516
+Pennsylvania,2009,54436
+Pennsylvania,2008,55172
+Pennsylvania,2007,58666
+Pennsylvania,2006,57406
+Pennsylvania,2005,59082
+Pennsylvania,2004,58258
+Pennsylvania,2003,57378
+Pennsylvania,2002,57361
+Pennsylvania,2001,58069
+Pennsylvania,2000,60373
+Rhode Island,2017,66390
+Rhode Island,2016,62851
+Rhode Island,2015,57633
+Rhode Island,2014,60771
+Rhode Island,2013,59365
+Rhode Island,2012,60935
+Rhode Island,2011,59969
+Rhode Island,2010,53558
+Rhode Island,2009,58164
+Rhode Island,2008,59137
+Rhode Island,2007,60765
+Rhode Island,2006,64248
+Rhode Island,2005,65492
+Rhode Island,2004,62265
+Rhode Island,2003,62359
+Rhode Island,2002,59736
+Rhode Island,2001,57958
+Rhode Island,2000,63460
+South Carolina,2017,54971
+South Carolina,2016,55505
+South Carolina,2015,47968
+South Carolina,2014,46567
+South Carolina,2013,45916
+South Carolina,2012,46112
+South Carolina,2011,47493
+South Carolina,2010,43783
+South Carolina,2009,46982
+South Carolina,2008,47073
+South Carolina,2007,48112
+South Carolina,2006,52400
+South Carolina,2005,48284
+South Carolina,2004,50621
+South Carolina,2003,50333
+South Carolina,2002,51410
+South Carolina,2001,51666
+South Carolina,2000,52375
+South Dakota,2017,56894
+South Dakota,2016,58685
+South Dakota,2015,56975
+South Dakota,2014,54987
+South Dakota,2013,56298
+South Dakota,2012,57394
+South Dakota,2011,52856
+South Dakota,2010,51581
+South Dakota,2009,51099
+South Dakota,2008,52485
+South Dakota,2007,58892
+South Dakota,2006,55013
+South Dakota,2005,55365
+South Dakota,2004,54296
+South Dakota,2003,53476
+South Dakota,2002,52803
+South Dakota,2001,51749
+South Dakota,2000,55060
+Tennessee,2017,55240
+Tennessee,2016,52448
+Tennessee,2015,48971
+Tennessee,2014,45310
+Tennessee,2013,45703
+Tennessee,2012,44795
+Tennessee,2011,45989
+Tennessee,2010,46181
+Tennessee,2009,43481
+Tennessee,2008,46404
+Tennessee,2007,45313
+Tennessee,2006,48823
+Tennessee,2005,49595
+Tennessee,2004,49584
+Tennessee,2003,49528
+Tennessee,2002,50133
+Tennessee,2001,50597
+Tennessee,2000,49664
+Texas,2017,59295
+Texas,2016,59396
+Texas,2015,58432
+Texas,2014,55839
+Texas,2013,54183
+Texas,2012,55891
+Texas,2011,55542
+Texas,2010,53573
+Texas,2009,53255
+Texas,2008,54373
+Texas,2007,53060
+Texas,2006,54580
+Texas,2005,52781
+Texas,2004,52120
+Texas,2003,53853
+Texas,2002,52468
+Texas,2001,54859
+Texas,2000,56711
+Utah,2017,71319
+Utah,2016,68932
+Utah,2015,68556
+Utah,2014,65694
+Utah,2013,64344
+Utah,2012,66368
+Utah,2011,62403
+Utah,2010,60614
+Utah,2009,63886
+Utah,2008,66990
+Utah,2007,71375
+Utah,2006,63440
+Utah,2005,66579
+Utah,2004,68970
+Utah,2003,66178
+Utah,2002,65834
+Utah,2001,65397
+Utah,2000,65707
+Vermont,2017,63805
+Vermont,2016,62145
+Vermont,2015,61557
+Vermont,2014,62922
+Vermont,2013,69052
+Vermont,2012,57804
+Vermont,2011,59452
+Vermont,2010,56648
+Vermont,2009,63015
+Vermont,2008,59920
+Vermont,2007,57872
+Vermont,2006,56165
+Vermont,2005,63353
+Vermont,2004,63800
+Vermont,2003,61570
+Vermont,2002,57799
+Vermont,2001,58753
+Vermont,2000,56619
+Virginia,2017,71293
+Virginia,2016,67880
+Virginia,2015,63618
+Virginia,2014,68567
+Virginia,2013,69467
+Virginia,2012,71272
+Virginia,2011,69132
+Virginia,2010,68394
+Virginia,2009,68017
+Virginia,2008,69292
+Virginia,2007,70745
+Virginia,2006,70115
+Virginia,2005,69615
+Virginia,2004,65322
+Virginia,2003,66529
+Virginia,2002,73193
+Virginia,2001,67815
+Virginia,2000,69731
+Washington,2017,75418
+Washington,2016,71822
+Washington,2015,69575
+Washington,2014,61222
+Washington,2013,67375
+Washington,2012,63353
+Washington,2011,66517
+Washington,2010,62096
+Washington,2009,63280
+Washington,2008,69167
+Washington,2007,64634
+Washington,2006,68834
+Washington,2005,66695
+Washington,2004,63727
+Washington,2003,64944
+Washington,2002,63473
+Washington,2001,61738
+Washington,2000,58973
+West Virginia,2017,45392
+West Virginia,2016,45308
+West Virginia,2015,44309
+West Virginia,2014,40994
+West Virginia,2013,45395
+West Virginia,2012,42415
+West Virginia,2011,46586
+West Virginia,2010,45680
+West Virginia,2009,48198
+West Virginia,2008,46373
+West Virginia,2007,43363
+West Virginia,2006,49885
+West Virginia,2005,46824
+West Virginia,2004,45858
+West Virginia,2003,43415
+West Virginia,2002,43773
+West Virginia,2001,40116
+West Virginia,2000,41184
+Wisconsin,2017,63451
+Wisconsin,2016,61103
+Wisconsin,2015,57347
+Wisconsin,2014,60198
+Wisconsin,2013,54520
+Wisconsin,2012,58243
+Wisconsin,2011,56775
+Wisconsin,2010,56862
+Wisconsin,2009,56731
+Wisconsin,2008,58682
+Wisconsin,2007,58436
+Wisconsin,2006,60771
+Wisconsin,2005,63001
+Wisconsin,2004,56182
+Wisconsin,2003,59493
+Wisconsin,2002,61818
+Wisconsin,2001,62721
+Wisconsin,2000,62937
+Wyoming,2017,57837
+Wyoming,2016,59073
+Wyoming,2015,63038
+Wyoming,2014,57721
+Wyoming,2013,71084
+Wyoming,2012,58709
+Wyoming,2011,61517
+Wyoming,2010,59539
+Wyoming,2009,58816
+Wyoming,2008,60094
+Wyoming,2007,60875
+Wyoming,2006,57769
+Wyoming,2005,57332
+Wyoming,2004,56268
+Wyoming,2003,59057
+Wyoming,2002,56855
+Wyoming,2001,54332
+Wyoming,2000,55127

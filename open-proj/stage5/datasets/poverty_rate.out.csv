@@ -1,0 +1,868 @@
+state,year,poverty_rate
+Alabama,2000,15.6
+Alabama,2001,16.5
+Alabama,2002,16.6
+Alabama,2003,17.1
+Alabama,2004,16.1
+Alabama,2005,17
+Alabama,2006,16.6
+Alabama,2007,16.9
+Alabama,2008,15.7
+Alabama,2009,17.5
+Alabama,2010,19
+Alabama,2011,19
+Alabama,2012,19
+Alabama,2013,18.7
+Alabama,2014,19.3
+Alabama,2015,18.5
+Alabama,2016,17.1
+Alaska,2000,9.1
+Alaska,2001,7.2
+Alaska,2002,7.7
+Alaska,2003,9.7
+Alaska,2004,8.2
+Alaska,2005,11.2
+Alaska,2006,10.9
+Alaska,2007,8.9
+Alaska,2008,8.4
+Alaska,2009,9
+Alaska,2010,9.9
+Alaska,2011,10.5
+Alaska,2012,10.1
+Alaska,2013,9.3
+Alaska,2014,11.2
+Alaska,2015,10.3
+Alaska,2016,9.9
+Arizona,2000,15.6
+Arizona,2001,13.7
+Arizona,2002,14.2
+Arizona,2003,15.4
+Arizona,2004,14.2
+Arizona,2005,14.2
+Arizona,2006,14.2
+Arizona,2007,14.2
+Arizona,2008,14.7
+Arizona,2009,16.5
+Arizona,2010,17.4
+Arizona,2011,19
+Arizona,2012,18.7
+Arizona,2013,18.6
+Arizona,2014,18.2
+Arizona,2015,17.4
+Arizona,2016,16.4
+Arkansas,2000,17
+Arkansas,2001,15.4
+Arkansas,2002,15.3
+Arkansas,2003,16
+Arkansas,2004,17.9
+Arkansas,2005,17.2
+Arkansas,2006,17.3
+Arkansas,2007,17.9
+Arkansas,2008,17.3
+Arkansas,2009,18.8
+Arkansas,2010,18.8
+Arkansas,2011,19.5
+Arkansas,2012,19.8
+Arkansas,2013,19.7
+Arkansas,2014,18.9
+Arkansas,2015,19.1
+Arkansas,2016,17.2
+California,2000,13.7
+California,2001,12.8
+California,2002,13
+California,2003,13.4
+California,2004,13.3
+California,2005,13.3
+California,2006,13.1
+California,2007,12.4
+California,2008,13.3
+California,2009,14.2
+California,2010,15.8
+California,2011,16.6
+California,2012,17
+California,2013,16.8
+California,2014,16.4
+California,2015,15.3
+California,2016,14.3
+Colorado,2000,8.7
+Colorado,2001,9.6
+Colorado,2002,9.7
+Colorado,2003,9.8
+Colorado,2004,11.1
+Colorado,2005,11.1
+Colorado,2006,12
+Colorado,2007,12
+Colorado,2008,11.4
+Colorado,2009,12.9
+Colorado,2010,13.4
+Colorado,2011,13.5
+Colorado,2012,13.7
+Colorado,2013,13
+Colorado,2014,12
+Colorado,2015,11.5
+Colorado,2016,11
+Connecticut,2000,7.7
+Connecticut,2001,7.3
+Connecticut,2002,7.5
+Connecticut,2003,8.1
+Connecticut,2004,7.6
+Connecticut,2005,8.3
+Connecticut,2006,8.3
+Connecticut,2007,7.9
+Connecticut,2008,9.3
+Connecticut,2009,9.4
+Connecticut,2010,10.1
+Connecticut,2011,10.9
+Connecticut,2012,10.7
+Connecticut,2013,10.7
+Connecticut,2014,10.8
+Connecticut,2015,10.5
+Connecticut,2016,9.8
+Delaware,2000,9.3
+Delaware,2001,9.8
+Delaware,2002,8.2
+Delaware,2003,8.7
+Delaware,2004,9.9
+Delaware,2005,10.4
+Delaware,2006,11.1
+Delaware,2007,10.5
+Delaware,2008,10
+Delaware,2009,10.8
+Delaware,2010,11.8
+Delaware,2011,11.9
+Delaware,2012,12
+Delaware,2013,12.4
+Delaware,2014,12.5
+Delaware,2015,12.4
+Delaware,2016,11.7
+District of Columbia,2000,17.5
+District of Columbia,2001,18.1
+District of Columbia,2002,17.5
+District of Columbia,2003,19.9
+District of Columbia,2004,18.9
+District of Columbia,2005,19
+District of Columbia,2006,19.6
+District of Columbia,2007,16.4
+District of Columbia,2008,17.2
+District of Columbia,2009,18.4
+District of Columbia,2010,19.2
+District of Columbia,2011,18.7
+District of Columbia,2012,18.2
+District of Columbia,2013,18.9
+District of Columbia,2014,17.7
+District of Columbia,2015,17.3
+District of Columbia,2016,18.6
+Florida,2000,12.8
+Florida,2001,12.5
+Florida,2002,12.8
+Florida,2003,13.1
+Florida,2004,12.2
+Florida,2005,12.8
+Florida,2006,12.6
+Florida,2007,12.1
+Florida,2008,13.2
+Florida,2009,14.9
+Florida,2010,16.5
+Florida,2011,17
+Florida,2012,17.1
+Florida,2013,17
+Florida,2014,16.5
+Florida,2015,15.7
+Florida,2016,14.7
+Georgia,2000,12.6
+Georgia,2001,11.7
+Georgia,2002,12.7
+Georgia,2003,13.4
+Georgia,2004,14.8
+Georgia,2005,14.4
+Georgia,2006,14.7
+Georgia,2007,14.3
+Georgia,2008,14.7
+Georgia,2009,16.5
+Georgia,2010,17.9
+Georgia,2011,19.1
+Georgia,2012,19.2
+Georgia,2013,19
+Georgia,2014,18.3
+Georgia,2015,17
+Georgia,2016,16
+Hawaii,2000,8.8
+Hawaii,2001,10.4
+Hawaii,2002,10.1
+Hawaii,2003,10.9
+Hawaii,2004,10.6
+Hawaii,2005,9.8
+Hawaii,2006,9.3
+Hawaii,2007,8
+Hawaii,2008,9.1
+Hawaii,2009,10.4
+Hawaii,2010,10.7
+Hawaii,2011,12
+Hawaii,2012,11.6
+Hawaii,2013,10.8
+Hawaii,2014,11.4
+Hawaii,2015,10.6
+Hawaii,2016,9.3
+Idaho,2000,11.4
+Idaho,2001,12
+Idaho,2002,13.8
+Idaho,2003,13.8
+Idaho,2004,14.5
+Idaho,2005,13.9
+Idaho,2006,12.6
+Idaho,2007,12.1
+Idaho,2008,12.6
+Idaho,2009,14.3
+Idaho,2010,15.7
+Idaho,2011,16.5
+Idaho,2012,15.9
+Idaho,2013,15.6
+Idaho,2014,14.8
+Idaho,2015,15.1
+Idaho,2016,14.4
+Illinois,2000,11.1
+Illinois,2001,11.2
+Illinois,2002,11.6
+Illinois,2003,11.3
+Illinois,2004,11.9
+Illinois,2005,12
+Illinois,2006,12.3
+Illinois,2007,11.9
+Illinois,2008,12.2
+Illinois,2009,13.3
+Illinois,2010,13.8
+Illinois,2011,15
+Illinois,2012,14.7
+Illinois,2013,14.7
+Illinois,2014,14.4
+Illinois,2015,13.6
+Illinois,2016,13
+Indiana,2000,10.1
+Indiana,2001,9.8
+Indiana,2002,10.9
+Indiana,2003,10.6
+Indiana,2004,10.8
+Indiana,2005,12.2
+Indiana,2006,12.7
+Indiana,2007,12.3
+Indiana,2008,13.1
+Indiana,2009,14.1
+Indiana,2010,15.3
+Indiana,2011,16
+Indiana,2012,15.6
+Indiana,2013,15.9
+Indiana,2014,15.2
+Indiana,2015,14.5
+Indiana,2016,14.1
+Iowa,2000,10
+Iowa,2001,9.7
+Iowa,2002,11.2
+Iowa,2003,10.1
+Iowa,2004,9.9
+Iowa,2005,10.9
+Iowa,2006,11
+Iowa,2007,11
+Iowa,2008,11.5
+Iowa,2009,11.8
+Iowa,2010,12.6
+Iowa,2011,12.8
+Iowa,2012,12.7
+Iowa,2013,12.7
+Iowa,2014,12.2
+Iowa,2015,12.2
+Iowa,2016,11.8
+Kansas,2000,9.5
+Kansas,2001,11.3
+Kansas,2002,12.1
+Kansas,2003,10.8
+Kansas,2004,10.5
+Kansas,2005,11.7
+Kansas,2006,12.4
+Kansas,2007,11.2
+Kansas,2008,11.3
+Kansas,2009,13.4
+Kansas,2010,13.6
+Kansas,2011,13.8
+Kansas,2012,14
+Kansas,2013,14
+Kansas,2014,13.6
+Kansas,2015,13
+Kansas,2016,12.1
+Kentucky,2000,16.4
+Kentucky,2001,15.4
+Kentucky,2002,15.6
+Kentucky,2003,17.4
+Kentucky,2004,17.4
+Kentucky,2005,16.8
+Kentucky,2006,17
+Kentucky,2007,17.3
+Kentucky,2008,17.3
+Kentucky,2009,18.6
+Kentucky,2010,19
+Kentucky,2011,19.1
+Kentucky,2012,19.4
+Kentucky,2013,18
+Kentucky,2014,19.1
+Kentucky,2015,18.5
+Kentucky,2016,18.5
+Louisiana,2000,20
+Louisiana,2001,19.1
+Louisiana,2002,18.8
+Louisiana,2003,20.3
+Louisiana,2004,19.4
+Louisiana,2005,19.8
+Louisiana,2006,19
+Louisiana,2007,18.6
+Louisiana,2008,17.3
+Louisiana,2009,17.3
+Louisiana,2010,18.7
+Louisiana,2011,20.4
+Louisiana,2012,19.9
+Louisiana,2013,19.8
+Louisiana,2014,19.8
+Louisiana,2015,19.6
+Louisiana,2016,20.2
+Maine,2000,10.1
+Maine,2001,10.6
+Maine,2002,11.1
+Maine,2003,10.5
+Maine,2004,12.3
+Maine,2005,12.6
+Maine,2006,12.9
+Maine,2007,12
+Maine,2008,12.3
+Maine,2009,12.3
+Maine,2010,12.9
+Maine,2011,14.1
+Maine,2012,14.7
+Maine,2013,14
+Maine,2014,14.1
+Maine,2015,13.4
+Maine,2016,12.5
+Maryland,2000,9.3
+Maryland,2001,8.1
+Maryland,2002,8.1
+Maryland,2003,8.2
+Maryland,2004,8.8
+Maryland,2005,8.2
+Maryland,2006,7.8
+Maryland,2007,8.3
+Maryland,2008,8.1
+Maryland,2009,9.1
+Maryland,2010,9.9
+Maryland,2011,10.1
+Maryland,2012,10.3
+Maryland,2013,10.1
+Maryland,2014,10.1
+Maryland,2015,9.7
+Maryland,2016,9.7
+Massachusetts,2000,9.6
+Massachusetts,2001,8.7
+Massachusetts,2002,8.9
+Massachusetts,2003,9.4
+Massachusetts,2004,9.2
+Massachusetts,2005,10.3
+Massachusetts,2006,9.9
+Massachusetts,2007,9.9
+Massachusetts,2008,10
+Massachusetts,2009,10.3
+Massachusetts,2010,11.4
+Massachusetts,2011,11.6
+Massachusetts,2012,11.9
+Massachusetts,2013,11.9
+Massachusetts,2014,11.6
+Massachusetts,2015,11.5
+Massachusetts,2016,10.4
+Michigan,2000,10.1
+Michigan,2001,10.6
+Michigan,2002,11
+Michigan,2003,11.4
+Michigan,2004,12.3
+Michigan,2005,13.2
+Michigan,2006,13.5
+Michigan,2007,14
+Michigan,2008,14.4
+Michigan,2009,16.2
+Michigan,2010,16.8
+Michigan,2011,17.5
+Michigan,2012,17.4
+Michigan,2013,17
+Michigan,2014,16.2
+Michigan,2015,15.8
+Michigan,2016,15
+Minnesota,2000,6.9
+Minnesota,2001,7.8
+Minnesota,2002,8.5
+Minnesota,2003,7.8
+Minnesota,2004,8.3
+Minnesota,2005,9.2
+Minnesota,2006,9.8
+Minnesota,2007,9.5
+Minnesota,2008,9.6
+Minnesota,2009,11
+Minnesota,2010,11.6
+Minnesota,2011,11.9
+Minnesota,2012,11.4
+Minnesota,2013,11.2
+Minnesota,2014,11.5
+Minnesota,2015,10.2
+Minnesota,2016,9.9
+Mississippi,2000,18.2
+Mississippi,2001,18.6
+Mississippi,2002,19.9
+Mississippi,2003,19.9
+Mississippi,2004,21.6
+Mississippi,2005,21.3
+Mississippi,2006,21.1
+Mississippi,2007,20.6
+Mississippi,2008,21.2
+Mississippi,2009,21.9
+Mississippi,2010,22.4
+Mississippi,2011,22.6
+Mississippi,2012,24.2
+Mississippi,2013,24
+Mississippi,2014,21.5
+Mississippi,2015,22
+Mississippi,2016,20.8
+Missouri,2000,11.2
+Missouri,2001,11.7
+Missouri,2002,11.9
+Missouri,2003,11.7
+Missouri,2004,11.8
+Missouri,2005,13.3
+Missouri,2006,13.6
+Missouri,2007,13
+Missouri,2008,13.4
+Missouri,2009,14.6
+Missouri,2010,15.3
+Missouri,2011,15.8
+Missouri,2012,16.2
+Missouri,2013,15.9
+Missouri,2014,15.5
+Missouri,2015,14.8
+Missouri,2016,14
+Montana,2000,13.4
+Montana,2001,14.6
+Montana,2002,14.6
+Montana,2003,14.2
+Montana,2004,14.2
+Montana,2005,14.4
+Montana,2006,13.6
+Montana,2007,14.1
+Montana,2008,14.8
+Montana,2009,15.1
+Montana,2010,14.6
+Montana,2011,14.8
+Montana,2012,15.5
+Montana,2013,16.5
+Montana,2014,15.4
+Montana,2015,14.6
+Montana,2016,13.3
+Nebraska,2000,9.6
+Nebraska,2001,10.3
+Nebraska,2002,11
+Nebraska,2003,10.8
+Nebraska,2004,11
+Nebraska,2005,10.9
+Nebraska,2006,11.5
+Nebraska,2007,11.2
+Nebraska,2008,10.8
+Nebraska,2009,12.3
+Nebraska,2010,12.9
+Nebraska,2011,13.1
+Nebraska,2012,13
+Nebraska,2013,13.2
+Nebraska,2014,12.4
+Nebraska,2015,12.6
+Nebraska,2016,11.4
+Nevada,2000,9.9
+Nevada,2001,9.7
+Nevada,2002,11.8
+Nevada,2003,11.5
+Nevada,2004,12.6
+Nevada,2005,11.1
+Nevada,2006,10.3
+Nevada,2007,10.7
+Nevada,2008,11.3
+Nevada,2009,12.4
+Nevada,2010,14.9
+Nevada,2011,15.9
+Nevada,2012,16.4
+Nevada,2013,15.8
+Nevada,2014,15.2
+Nevada,2015,14.7
+Nevada,2016,13.8
+New Hampshire,2000,5.3
+New Hampshire,2001,6
+New Hampshire,2002,6.4
+New Hampshire,2003,7.7
+New Hampshire,2004,7.6
+New Hampshire,2005,7.5
+New Hampshire,2006,8
+New Hampshire,2007,7.1
+New Hampshire,2008,7.6
+New Hampshire,2009,8.5
+New Hampshire,2010,8.3
+New Hampshire,2011,8.8
+New Hampshire,2012,10
+New Hampshire,2013,8.7
+New Hampshire,2014,9.2
+New Hampshire,2015,8.2
+New Hampshire,2016,7.3
+New Jersey,2000,7.9
+New Jersey,2001,7.9
+New Jersey,2002,7.5
+New Jersey,2003,8.4
+New Jersey,2004,8.5
+New Jersey,2005,8.7
+New Jersey,2006,8.7
+New Jersey,2007,8.6
+New Jersey,2008,8.7
+New Jersey,2009,9.4
+New Jersey,2010,10.3
+New Jersey,2011,10.4
+New Jersey,2012,10.8
+New Jersey,2013,11.4
+New Jersey,2014,11.1
+New Jersey,2015,10.8
+New Jersey,2016,10.4
+New Mexico,2000,18
+New Mexico,2001,17.7
+New Mexico,2002,18.9
+New Mexico,2003,18.6
+New Mexico,2004,19.3
+New Mexico,2005,18.5
+New Mexico,2006,18.5
+New Mexico,2007,18.1
+New Mexico,2008,17.1
+New Mexico,2009,18
+New Mexico,2010,20.4
+New Mexico,2011,21.5
+New Mexico,2012,20.8
+New Mexico,2013,21.9
+New Mexico,2014,21.3
+New Mexico,2015,20.4
+New Mexico,2016,19.8
+New York,2000,13.1
+New York,2001,13.4
+New York,2002,13.1
+New York,2003,13.5
+New York,2004,14.2
+New York,2005,13.8
+New York,2006,14.2
+New York,2007,13.7
+New York,2008,13.6
+New York,2009,14.2
+New York,2010,14.9
+New York,2011,16
+New York,2012,15.9
+New York,2013,16
+New York,2014,15.9
+New York,2015,15.4
+New York,2016,14.7
+North Carolina,2000,13.1
+North Carolina,2001,14.1
+North Carolina,2002,14.2
+North Carolina,2003,14
+North Carolina,2004,15.2
+North Carolina,2005,15.1
+North Carolina,2006,14.7
+North Carolina,2007,14.3
+North Carolina,2008,14.6
+North Carolina,2009,16.3
+North Carolina,2010,17.5
+North Carolina,2011,17.9
+North Carolina,2012,18
+North Carolina,2013,17.9
+North Carolina,2014,17.2
+North Carolina,2015,16.4
+North Carolina,2016,15.4
+North Dakota,2000,11.6
+North Dakota,2001,12.1
+North Dakota,2002,12.5
+North Dakota,2003,11.7
+North Dakota,2004,12.1
+North Dakota,2005,11.2
+North Dakota,2006,11.4
+North Dakota,2007,12.1
+North Dakota,2008,12
+North Dakota,2009,11.7
+North Dakota,2010,13
+North Dakota,2011,12.2
+North Dakota,2012,11.2
+North Dakota,2013,11.8
+North Dakota,2014,11.511
+North Dakota,2015,11
+North Dakota,2016,10.7
+Ohio,2000,11.1
+Ohio,2001,11
+Ohio,2002,11.9
+Ohio,2003,12.1
+Ohio,2004,12.5
+Ohio,2005,13
+Ohio,2006,13.3
+Ohio,2007,13.1
+Ohio,2008,13.4
+Ohio,2009,15.2
+Ohio,2010,15.8
+Ohio,2011,16.4
+Ohio,2012,16.3
+Ohio,2013,16
+Ohio,2014,15.8
+Ohio,2015,14.8
+Ohio,2016,14.6
+Oklahoma,2000,13.8
+Oklahoma,2001,15.5
+Oklahoma,2002,15
+Oklahoma,2003,16.1
+Oklahoma,2004,15.3
+Oklahoma,2005,16.5
+Oklahoma,2006,17
+Oklahoma,2007,15.9
+Oklahoma,2008,15.9
+Oklahoma,2009,16.2
+Oklahoma,2010,16.9
+Oklahoma,2011,17.2
+Oklahoma,2012,17.2
+Oklahoma,2013,16.8
+Oklahoma,2014,16.6
+Oklahoma,2015,16.1
+Oklahoma,2016,16.3
+Oregon,2000,13.2
+Oregon,2001,13.4
+Oregon,2002,13.2
+Oregon,2003,13.9
+Oregon,2004,14.1
+Oregon,2005,14.1
+Oregon,2006,13.3
+Oregon,2007,12.9
+Oregon,2008,13.6
+Oregon,2009,14.3
+Oregon,2010,15.8
+Oregon,2011,17.5
+Oregon,2012,17.2
+Oregon,2013,16.7
+Oregon,2014,16.6
+Oregon,2015,15.4
+Oregon,2016,13.3
+Pennsylvania,2000,10.5
+Pennsylvania,2001,10.7
+Pennsylvania,2002,10.5
+Pennsylvania,2003,10.9
+Pennsylvania,2004,11.7
+Pennsylvania,2005,11.9
+Pennsylvania,2006,12.1
+Pennsylvania,2007,11.6
+Pennsylvania,2008,12.1
+Pennsylvania,2009,12.5
+Pennsylvania,2010,13.4
+Pennsylvania,2011,13.8
+Pennsylvania,2012,13.7
+Pennsylvania,2013,13.7
+Pennsylvania,2014,13.6
+Pennsylvania,2015,13.2
+Pennsylvania,2016,12.9
+Rhode Island,2000,10.7
+Rhode Island,2001,12
+Rhode Island,2002,10.7
+Rhode Island,2003,11.3
+Rhode Island,2004,12.8
+Rhode Island,2005,12.3
+Rhode Island,2006,11.1
+Rhode Island,2007,12
+Rhode Island,2008,11.7
+Rhode Island,2009,11.5
+Rhode Island,2010,14
+Rhode Island,2011,14.7
+Rhode Island,2012,13.7
+Rhode Island,2013,14.3
+Rhode Island,2014,14.3
+Rhode Island,2015,13.9
+Rhode Island,2016,12.8
+South Carolina,2000,14.4
+South Carolina,2001,13.4
+South Carolina,2002,14.2
+South Carolina,2003,14.1
+South Carolina,2004,15.7
+South Carolina,2005,15.6
+South Carolina,2006,15.7
+South Carolina,2007,15
+South Carolina,2008,15.7
+South Carolina,2009,17.1
+South Carolina,2010,18.2
+South Carolina,2011,18.9
+South Carolina,2012,18.3
+South Carolina,2013,18.6
+South Carolina,2014,18
+South Carolina,2015,16.6
+South Carolina,2016,15.3
+South Dakota,2000,11.5
+South Dakota,2001,11.6
+South Dakota,2002,11.4
+South Dakota,2003,11.1
+South Dakota,2004,11
+South Dakota,2005,13.6
+South Dakota,2006,13.6
+South Dakota,2007,13.1
+South Dakota,2008,12.5
+South Dakota,2009,14.2
+South Dakota,2010,14.4
+South Dakota,2011,13.9
+South Dakota,2012,13.4
+South Dakota,2013,14.2
+South Dakota,2014,14.2
+South Dakota,2015,13.7
+South Dakota,2016,13.3
+Tennessee,2000,13.5
+Tennessee,2001,14.3
+Tennessee,2002,14.5
+Tennessee,2003,13.8
+Tennessee,2004,14.5
+Tennessee,2005,15.5
+Tennessee,2006,16.2
+Tennessee,2007,15.9
+Tennessee,2008,15.5
+Tennessee,2009,17.1
+Tennessee,2010,17.7
+Tennessee,2011,18.3
+Tennessee,2012,17.9
+Tennessee,2013,17.8
+Tennessee,2014,18.3
+Tennessee,2015,16.7
+Tennessee,2016,15.8
+Texas,2000,15.1
+Texas,2001,15
+Texas,2002,15.6
+Texas,2003,16.3
+Texas,2004,16.6
+Texas,2005,17.6
+Texas,2006,16.9
+Texas,2007,16.3
+Texas,2008,5.8
+Texas,2009,17.2
+Texas,2010,17.9
+Texas,2011,18.5
+Texas,2012,17.9
+Texas,2013,17.5
+Texas,2014,17.2
+Texas,2015,15.9
+Texas,2016,15.6
+Utah,2000,8.8
+Utah,2001,8.6
+Utah,2002,10.5
+Utah,2003,10.6
+Utah,2004,10.9
+Utah,2005,10.2
+Utah,2006,10.6
+Utah,2007,9.7
+Utah,2008,9.6
+Utah,2009,11.5
+Utah,2010,13.2
+Utah,2011,13.5
+Utah,2012,12.8
+Utah,2013,12.7
+Utah,2014,11.7
+Utah,2015,11.3
+Utah,2016,10.2
+Vermont,2000,10.7
+Vermont,2001,10.4
+Vermont,2002,8.5
+Vermont,2003,9.7
+Vermont,2004,9
+Vermont,2005,11.5
+Vermont,2006,10.3
+Vermont,2007,10.1
+Vermont,2008,10.6
+Vermont,2009,11.4
+Vermont,2010,12.7
+Vermont,2011,11.5
+Vermont,2012,11.8
+Vermont,2013,12.3
+Vermont,2014,12.2
+Vermont,2015,10.2
+Vermont,2016,11.9
+Virginia,2000,9.2
+Virginia,2001,9.3
+Virginia,2002,9.9
+Virginia,2003,9
+Virginia,2004,9.5
+Virginia,2005,10
+Virginia,2006,9.6
+Virginia,2007,9.9
+Virginia,2008,10.2
+Virginia,2009,10.5
+Virginia,2010,11.1
+Virginia,2011,11.5
+Virginia,2012,11.7
+Virginia,2013,11.7
+Virginia,2014,11.8
+Virginia,2015,11.2
+Virginia,2016,11
+Washington,2000,11.6
+Washington,2001,10.8
+Washington,2002,11.4
+Washington,2003,11
+Washington,2004,13.1
+Washington,2005,11.9
+Washington,2006,11.8
+Washington,2007,11.4
+Washington,2008,11.3
+Washington,2009,12.3
+Washington,2010,13.4
+Washington,2011,13.9
+Washington,2012,13.5
+Washington,2013,14.1
+Washington,2014,13.2
+Washington,2015,12.2
+Washington,2016,11.3
+West Virginia,2000,18.6
+West Virginia,2001,17.2
+West Virginia,2002,17.2
+West Virginia,2003,18.5
+West Virginia,2004,17.9
+West Virginia,2005,18
+West Virginia,2006,17.3
+West Virginia,2007,16.9
+West Virginia,2008,17
+West Virginia,2009,17.7
+West Virginia,2010,18.1
+West Virginia,2011,18.6
+West Virginia,2012,17.8
+West Virginia,2013,18.5
+West Virginia,2014,18.3
+West Virginia,2015,17.9
+West Virginia,2016,17.9
+Wisconsin,2000,8.9
+Wisconsin,2001,9.8
+Wisconsin,2002,9.7
+Wisconsin,2003,10.5
+Wisconsin,2004,10.7
+Wisconsin,2005,10.2
+Wisconsin,2006,11
+Wisconsin,2007,10.8
+Wisconsin,2008,10.4
+Wisconsin,2009,12.4
+Wisconsin,2010,13.2
+Wisconsin,2011,13.1
+Wisconsin,2012,13.2
+Wisconsin,2013,13.5
+Wisconsin,2014,13.2
+Wisconsin,2015,12.1
+Wisconsin,2016,11.8
+Wyoming,2000,11.4
+Wyoming,2001,11.4
+Wyoming,2002,11
+Wyoming,2003,9.7
+Wyoming,2004,10.3
+Wyoming,2005,9.5
+Wyoming,2006,9.4
+Wyoming,2007,8.7
+Wyoming,2008,9.4
+Wyoming,2009,9.8
+Wyoming,2010,11.2
+Wyoming,2011,11.3
+Wyoming,2012,12.6
+Wyoming,2013,10.9
+Wyoming,2014,11.2
+Wyoming,2015,11.1
+Wyoming,2016,11.3

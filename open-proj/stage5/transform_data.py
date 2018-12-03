@@ -49,7 +49,7 @@ def move_years_in_header(filenames):
 def add_years(filenames):
     """ Assigns years to all data without years by duplicating the data.
         Assumes the data given is the average
-        Years range from [1992, 2016]
+        Years range from [2000, 2016]
         Expects State, but no year
     """
     for filename in filenames:
@@ -62,7 +62,7 @@ def add_years(filenames):
             newheader = ['year']
             newheader.extend(oldheader)
             writer.writerow(newheader)  # write new header
-            years = range(1992, 2016)
+            years = range(2000, 2016)
 
             for oldrow in reader:
                 for year in years:
@@ -114,6 +114,7 @@ def join(filenames):
     left_df = pd.read_csv(filenames[0])
 
     for filename in filenames[1:]:
+        print(filename)
         right_df = pd.read_csv(filename)
         left_df  = pd.merge(left_df, right_df, how='left', 
                             left_on=['year', 'state'], 
@@ -144,5 +145,4 @@ if __name__=="__main__":
     elif args.method == 'move_years':
         move_years_in_header(args.files)
     elif args.method == 'merge':
-        print(args.files)
         join(args.files)

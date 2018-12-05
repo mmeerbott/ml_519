@@ -1,0 +1,23 @@
+per = Perceptron(n_iter=100, eta0=.2, random_state=1)
+clf_entropy = DecisionTreeClassifier(criterion="entropy", random_state=1, max_depth=15, min_samples_leaf=10)
+knnn = KNeighborsClassifier(n_neighbors=9, weights='uniform', algorithm='auto', leaf_size=50)
+logreg = LogisticRegression(warm_start=True, n_jobs=10, max_iter=200, C=5)
+clf1 = svm.SVC(kernel="linear", random_state=1, C=5, degree=5, class_weight='balanced')
+clf2 = svm.SVC(gamma='scale', C=5, degree=5, class_weight='balanced')
+sgd = linear_model.SGDClassifier(max_iter=200, tol=1e-3, alpha=0.0004, shuffle=False)
+
+Results
+---------Perceptron---------
+accuracy 71.43
+---------Decision Tree---------
+accuracy 74.03
+---------KNN---------
+accuracy 72.73
+---------Logestic Refression---------
+accuracy 76.62
+---------SVM Linear---------
+accuracy 79.22
+---------SVM non-Linear---------
+accuracy 79.22
+---------SGD---------
+accuracy 71.43

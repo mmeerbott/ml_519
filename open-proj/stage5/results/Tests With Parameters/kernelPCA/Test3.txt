@@ -1,0 +1,57 @@
+per = Perceptron(n_iter=100, eta0=.2, random_state=1)
+clf_entropy = DecisionTreeClassifier(criterion="entropy", random_state=1, max_depth=15, min_samples_leaf=10)
+knnn = KNeighborsClassifier(n_neighbors=9, weights='uniform', algorithm='auto', leaf_size=50)
+logreg = LogisticRegression(warm_start=True, n_jobs=10, max_iter=200, C=5)
+clf1 = svm.SVC(kernel="linear", random_state=1, C=5, degree=5, class_weight='balanced')
+clf2 = svm.SVC(gamma='scale', C=5, degree=5, class_weight='balanced')
+sgd = linear_model.SGDClassifier(max_iter=200, tol=1e-3, alpha=0.0004, shuffle=False)
+
+Results
+==========kpca = KernelPCA(n_components=2, kernel='rbf')===============
+---------Perceptron---------
+accuracy 45.45
+---------Decision Tree---------
+accuracy 54.55
+---------KNN---------
+accuracy 50.65
+---------Logestic Refression---------
+accuracy 58.44
+---------SVM Linear---------
+accuracy 58.44
+---------SVM non-Linear---------
+accuracy 58.44
+---------SGD---------
+accuracy 44.16
+
+==========kpca = KernelPCA(n_components=4, kernel='rbf')===============
+
+---------Perceptron---------
+accuracy 67.53
+---------Decision Tree---------
+accuracy 75.32
+---------KNN---------
+accuracy 72.73
+---------Logestic Refression---------
+accuracy 71.43
+---------SVM Linear---------
+accuracy 71.43
+---------SVM non-Linear---------
+accuracy 72.73
+---------SGD---------
+accuracy 70.13
+
+==========kpca = KernelPCA(n_components=8, kernel='rbf')===============
+---------Perceptron---------
+accuracy 67.53
+---------Decision Tree---------
+accuracy 74.03
+---------KNN---------
+accuracy 70.13
+---------Logestic Refression---------
+accuracy 72.73
+---------SVM Linear---------
+accuracy 72.73
+---------SVM non-Linear---------
+accuracy 74.03
+---------SGD---------
+accuracy 72.73

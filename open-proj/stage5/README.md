@@ -39,10 +39,6 @@ Republican, our choice has nothing to do with our own affiliations. We are
 separating the election into only Republican and Democratic. A description of 
 all our desired attributes/features is at the end of the document.
 
-We want to use SVM to create our model because the data is not linearly 
-separable. It has more dependent features. We will also be using other 
-classification algorithms to compare.
-
 # Methodology
 
 We tested our dataset using different classifiers (i.e. Perceptron, Decision 

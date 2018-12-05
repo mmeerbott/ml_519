@@ -99,9 +99,9 @@ sgd = linear_model.SGDClassifier(max_iter=100, tol=1e-3)
 | 1 | Perceptron    |
 | 2 | Decision Tree |
 | 3 | KNN           |
-| 4 | LR            |
-| 5 | SVM-L         |
-| 6 | SCm-NL        |
+| 4 | Logistic Reg. |
+| 5 | SVM-Lin.      |
+| 6 | SVM-Non-Lin   |
 | 7 | SGD           |
 
 ![1](images/t1_acc_no_dimred.png)
@@ -136,9 +136,9 @@ sgd = linear_model.SGDClassifier(max_iter=100, tol=1e-3, alpha=0.0002, shuffle=T
 | 1 | Perceptron    |
 | 2 | Decision Tree |
 | 3 | KNN           |
-| 4 | LR            |
-| 5 | SVM-L         |
-| 6 | SCm-NL        |
+| 4 | Logistic Reg. |
+| 5 | SVM-Lin.      |
+| 6 | SVM-Non-Lin   |
 | 7 | SGD           |
 
 ![2](images/t2_acc_no_dimred.png)
@@ -173,9 +173,9 @@ sgd = linear_model.SGDClassifier(max_iter=200, tol=1e-3, alpha=0.0004, shuffle=F
 | 1 | Perceptron    |
 | 2 | Decision Tree |
 | 3 | KNN           |
-| 4 | LR            |
-| 5 | SVM-L         |
-| 6 | SCm-NL        |
+| 4 | Logistic Reg. |
+| 5 | SVM-Lin.      |
+| 6 | SVM-Non-Lin   |
 | 7 | SGD           |
 
 ![3](images/t3_acc_no_dimred.png)
@@ -213,13 +213,18 @@ sgd = linear_model.SGDClassifier(max_iter=200, tol=1e-3, alpha=0.0004, shuffle=F
 
 
 
-## Analysis
+## Analysis and Conclusion
 Our highest accuracy was 79.22%, and the minimum accuracy was 71.43%, as seen
 from our [results](results/Test_Results.xlsx). We used the PCA method on all
 three tests; the highest accuracy was 80.52%, and the lowest, 57.14%. We used
 the LDA method for all three tests, the highest accuracy was 80.52%, and the 
 lowest was 68.83. We then used Kernel PCA (KCPA) and got 76.62% for our highest
 accuracy, and 44.16% for our lowest. 
+
+Our accuracy wasn't as high as we would like it to be. We can only make
+assumptions that our data didn't include enough of what influences voters,
+perhaps states influence each other, or living conditions influence people
+less than our original assumptions said.
 
 
 ## Datasets

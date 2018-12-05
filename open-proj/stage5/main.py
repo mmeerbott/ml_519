@@ -12,6 +12,8 @@ import argparse
 from pandas import read_csv
 from sklearn.metrics import accuracy_score
 
+from adaline import Adaline
+from sgd import SGD
 
 def getDataset(dataset_name):
     """ helper function for main to load a dataset given the args input.
@@ -55,39 +57,41 @@ def getClassifier(classifier_name):
     return cls
 
 
-if __name__=='__main__':
-    # set/handle arguments
+def setupArgs():
     parser = argparse.ArgumentParser(
                  description='Run classifiers on data(.80 to train .20 to test)'
              )
 
     parser.add_argument('classifier', 
                         help='The classifier to use',
-                        choices=['perceptron', 'linsvm', 'nonlinsvm',
-                                 'dtree', 'knn', 'logreg']
+                        choices=['perceptron', 'adaline', 'sgd']
                         )
 
     parser.add_argument('dataset', 
                         help='The dataset filename, or digits/realdisp', 
                         )
 
-    args = parser.parse_args()
+    return parser.parse_args()
 
+
+def splitTrainTest(X, y, perc_train=.7):
+    """ Split where perc_train is the percentage of training data to use """
+    training_size = int(len(X) * perc_train)
+    X_train = X[0:training_size]
+    y_train = y[0:training_size]
+    X_test = X[training_size:]
+    y_test = y[training_size:]
+
+    return X_train, y_train, X_test, y_test
+
+
+if __name__=='__main__':
     # Get classifier and dataset
     cls = getClassifier(args.classifier)
     X, y = getDataset(args.dataset)
 
-    # Split the train:test data 80:20
-    training_size = int(len(X)*.8)
-    print(args.classifier + ' ' + args.dataset)
-    print("Training Size (instances): " + str(training_size))
-    print("Testing Size (instances): " + str(len(X) - training_size))
-
-    X_train = X[0:training_size]
-    y_train = y[0:training_size]
-
-    X_test = X[training_size:]
-    y_test = y[training_size:]
+    # Split the train:test data 
+    X_train, y_train, X_test, y_test = splitTrainTest(X, y, .8)
 
     # Train
     start = timeit.default_timer()
